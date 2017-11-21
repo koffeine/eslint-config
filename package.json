@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-koffeine",
+  "version": "1.0.0",
+  "description": "Koffeine's ESLint shareable config",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/koffeine/eslint-config-koffeine",
+  "bugs": {
+    "url": "https://github.com/koffeine/eslint-config-koffeine/issues"
+  },
+  "license": "MIT",
+  "author": "Kornél Horváth <kornel.horvath@me.com>",
+  "main": "eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koffeine/eslint-config-koffeine.git"
+  },
+  "devDependencies": {
+    "eslint": "4.11.0",
+    "eslint-find-rules": "^3.1.1"
+  },
+  "peerDependencies": {
+    "eslint": "4.11.0"
+  }
+}
