@@ -8,7 +8,7 @@ Koffeine's ESLint shareable config
 
 ## Usage
 
-> Use option `--save-exact` for npm install to make sure that ESLint and config rules match.
+Use option `--save-exact` for npm install to make sure that ESLint and config rules match.
 
 ### Install config
 
@@ -18,21 +18,21 @@ npm install --save-dev --save-exact eslint-config-koffeine
 
 ### Install ESLint
 
-- Install the correct version of ESlint, which is listed by the command:
+Install the correct version of ESlint, which is listed by the command:
 
 ```sh
 npm info eslint-config-koffeine peerDependencies
 ```
 
-- For example (for 4.11.0):
+For example (for 4.11.0):
 
 ```sh
 npm install --save-dev --save-exact eslint@4.11.0
 ```
 
-### Extend from config
+### ES6+ config
 
-Now you can add the following to your .eslintrc.js file:
+Add the following to your .eslintrc.js file:
 
 ```js
 modules.exports = {
@@ -40,6 +40,18 @@ modules.exports = {
 	...
 };
 ```
+
+### ES5 config
+
+Add the following to your .eslintrc.js file:
+
+```js
+modules.exports = {
+	extends: 'koffeine/es5',
+	...
+};
+```
+
 
 ## License
 

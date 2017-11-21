@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": "Kornél Horváth <kornel.horvath@me.com>",
-  "main": "eslintrc.js",
+  "main": "es6.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koffeine/eslint-config-koffeine.git"
