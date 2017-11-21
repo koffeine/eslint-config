@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- no-shadow.builtinGlobals from true to false
+
 
 ## [1.0.0] - 2017-11-21
 
