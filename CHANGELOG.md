@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Fixed badge links in README.md
+- Updated ESLint to 4.12.0
 
 
 ## [1.1.0] - 2017-11-21

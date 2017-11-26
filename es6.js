@@ -43,6 +43,7 @@ module.exports = {
 		// 'id-blacklist': 'off',
 		// 'id-length': 'off',
 		// 'id-match': 'off',
+		// 'implicit-arrow-linebreak': 'off',
 		'indent': [ 'error', 'tab', { 'SwitchCase': 1, 'VariableDeclarator': 1, 'outerIIFEBody': 1, 'MemberExpression': 1, 'FunctionDeclaration': { 'parameters': 1, 'body': 1 }, 'FunctionExpression': { 'parameters': 1, 'body': 1 }, 'CallExpression': { 'arguments': 1 }, 'ArrayExpression': 1, 'ObjectExpression': 1, 'ImportDeclaration': 1, 'flatTernaryExpressions': false } ],
 		// 'init-declarations': 'off',
 		'jsx-quotes': [ 'error', 'prefer-double' ],
