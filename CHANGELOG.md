@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.1.3] - 2017-12-11
 
+### Changed
+
 - Updated ESLint to 4.13.0
 
 
