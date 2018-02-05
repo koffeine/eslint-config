@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Updated ESLint to 4.17.0
+- Extended configuration of padding-line-between-statements rule
 
 
 ## [2.0.2] - 2018-01-23
