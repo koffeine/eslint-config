@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+## [3.0.5] - 2018-03-22
+
 ### Fixed
 
 - Changed 'one-var' rule back to always, because consecutive mode ignores the separateRequires flag
