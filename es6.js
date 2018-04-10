@@ -174,7 +174,7 @@ module.exports = {
 		'no-undef-init': 'error',
 		'no-undef': [ 'error', { 'typeof': true } ],
 		'no-undefined': 'error',
-		'no-underscore-dangle': [ 'error', { 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': true } ],
+		'no-underscore-dangle': [ 'error', { 'allowAfterThis': true, 'allowAfterSuper': false, 'enforceInMethodNames': true } ],
 		'no-unexpected-multiline': 'error',
 		'no-unmodified-loop-condition': 'error',
 		'no-unneeded-ternary': [ 'error', { 'defaultAssignment': false } ],

@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Underscore dangles are now allowed after this
+
 
 ## [3.0.5] - 2018-03-22
 
