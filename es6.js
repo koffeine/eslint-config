@@ -4,7 +4,7 @@ module.exports = {
 		// 'array-bracket-newline': 'off',
 		'array-bracket-spacing': [ 'error', 'always', { 'singleValue': true, 'objectsInArrays': true, 'arraysInArrays': true } ],
 		'array-callback-return': 'error',
-		// 'array-element-newline': 'off',
+		'array-element-newline': [ 'error', 'consistent' ],
 		// 'arrow-body-style': 'off',
 		'arrow-parens': [ 'error', 'always' ],
 		'arrow-spacing': [ 'error', { 'before': true, 'after': true } ],

@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Updated ESLint to 5.0.1
+- Enabled 'array-element-newline' rule as 'consistent'
+
 
 ## [3.0.6] - 2018-03-10
 
