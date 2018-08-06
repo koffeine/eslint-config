@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Updated ESLint to 5.3.0
+- Enabled the following rules: no-misleading-character-class, require-atomic-updates, no-async-promise-executor, require-unicode-regexp
+
 
 ## [4.0.2] - 2018-07-23
 
