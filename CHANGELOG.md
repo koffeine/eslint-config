@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Updated ESLint to 5.4.0
+- Updated ESLint to 5.5.0
 
 
 ## [5.0.0] - 2018-08-06
