@@ -24,10 +24,10 @@ Install the correct version of ESlint, which is listed by the command:
 npm info eslint-config-koffeine peerDependencies
 ```
 
-For example (for 5.5.0):
+For example (for 5.6.0):
 
 ```sh
-npm install --save-dev --save-exact eslint@5.5.0
+npm install --save-dev --save-exact eslint@5.6.0
 ```
 
 ### ES6+ config
