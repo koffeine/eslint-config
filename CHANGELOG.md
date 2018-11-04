@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Updated README.md
 - Renamed es6.js to es6+.js
 - Disabled package-lock.json
+- Reordered package.json properties
 
 ### Fixed
 
