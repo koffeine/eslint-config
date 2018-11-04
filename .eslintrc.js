@@ -1,5 +1,5 @@
 module.exports = {
-	extends: './es6.js',
+	extends: './es6+.js',
 	env: {
 		node: true
 	},
