@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Updated license
 
+### Fixed
+
+- Linting errors
+
 
 ## [5.0.5] - 2018-10-27
 
