@@ -6,31 +6,33 @@
 
 Koffeine's ESLint shareable config
 
-## Usage
+## Installation
 
 Use option `--save-exact` for npm install to make sure that ESLint and config rules match.
 
-### Install config
+__Install config__
 
 ```sh
-npm install --save-dev --save-exact eslint-config-koffeine
+npm install eslint-config-koffeine --save-dev --save-exact
 ```
 
-### Install ESLint
+__Install ESLint__
 
-Install the correct version of ESlint, which is listed by the command:
+Install the correct version of ESLint, which is listed by the command:
 
 ```sh
 npm info eslint-config-koffeine peerDependencies
 ```
 
-For example (for 5.8.0):
+For example:
 
 ```sh
-npm install --save-dev --save-exact eslint@5.8.0
+npm install eslint@5.8.0 --save-dev --save-exact
 ```
 
-### ES6+ config
+## Usage
+
+__ES6+ config__
 
 Add the following to your .eslintrc.js file:
 
@@ -41,7 +43,7 @@ modules.exports = {
 };
 ```
 
-### ES5 config
+__ES5 config__
 
 Add the following to your .eslintrc.js file:
 
@@ -51,7 +53,6 @@ modules.exports = {
 	...
 };
 ```
-
 
 ## License
 
