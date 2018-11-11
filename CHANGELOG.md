@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Removed
+
+- eslint-find-rules as a devDependency
+
 
 ## [5.0.9] - 2018-11-11
 
