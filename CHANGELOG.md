@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed
 
 - eslint-find-rules as a devDependency
+- Unnecessary files from published package
 
 
 ## [5.0.9] - 2018-11-11
