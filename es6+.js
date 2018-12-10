@@ -213,38 +213,47 @@ module.exports = {
 		'padding-line-between-statements': [
 			'error',
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'block-like' },
-			{ 'blankLine': 'always', 'prev': 'block-like', 'next': '*' },
+			{ 'prev': '*', 'next': 'block', 'blankLine': 'always' },
+			{ 'prev': 'block', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'block' },
-			{ 'blankLine': 'always', 'prev': 'block', 'next': '*' },
+			{ 'prev': '*', 'next': 'block-like', 'blankLine': 'always' },
+			{ 'prev': 'block-like', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'class' },
-			{ 'blankLine': 'always', 'prev': 'class', 'next': '*' },
+			{ 'prev': '*', 'next': 'class', 'blankLine': 'always' },
+			{ 'prev': 'class', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'do' },
-			{ 'blankLine': 'always', 'prev': 'do', 'next': '*' },
+			{ 'prev': '*', 'next': 'do', 'blankLine': 'always' },
+			{ 'prev': 'do', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'for' },
-			{ 'blankLine': 'always', 'prev': 'for', 'next': '*' },
+			{ 'prev': '*', 'next': 'for', 'blankLine': 'always' },
+			{ 'prev': 'for', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'function' },
-			{ 'blankLine': 'always', 'prev': 'function', 'next': '*' },
+			{ 'prev': '*', 'next': 'function', 'blankLine': 'always' },
+			{ 'prev': 'function', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'if' },
-			{ 'blankLine': 'always', 'prev': 'if', 'next': '*' },
+			{ 'prev': '*', 'next': 'if', 'blankLine': 'always' },
+			{ 'prev': 'if', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'multiline-block-like' },
-			{ 'blankLine': 'always', 'prev': 'multiline-block-like', 'next': '*' },
+			{ 'prev': '*', 'next': 'multiline-block-like', 'blankLine': 'always' },
+			{ 'prev': 'multiline-block-like', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'switch' },
-			{ 'blankLine': 'always', 'prev': 'switch', 'next': '*' },
+			{ 'prev': '*', 'next': 'multiline-const', 'blankLine': 'always' },
+			{ 'prev': 'multiline-const', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'try' },
-			{ 'blankLine': 'always', 'prev': 'try', 'next': '*' },
+			{ 'prev': '*', 'next': 'multiline-let', 'blankLine': 'always' },
+			{ 'prev': 'multiline-let', 'next': '*', 'blankLine': 'always' },
 
-			{ 'blankLine': 'always', 'prev': '*', 'next': 'while' },
-			{ 'blankLine': 'always', 'prev': 'while', 'next': '*' }
+			{ 'prev': '*', 'next': 'multiline-var', 'blankLine': 'always' },
+			{ 'prev': 'multiline-var', 'next': '*', 'blankLine': 'always' },
+
+			{ 'prev': '*', 'next': 'switch', 'blankLine': 'always' },
+			{ 'prev': 'switch', 'next': '*', 'blankLine': 'always' },
+
+			{ 'prev': '*', 'next': 'try', 'blankLine': 'always' },
+			{ 'prev': 'try', 'next': '*', 'blankLine': 'always' },
+
+			{ 'prev': '*', 'next': 'while', 'blankLine': 'always' },
+			{ 'prev': 'while', 'next': '*', 'blankLine': 'always' }
 		],
 		'prefer-arrow-callback': [ 'error', { 'allowNamedFunctions': false, 'allowUnboundThis': true } ],
 		// 'prefer-const': 'off',

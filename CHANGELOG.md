@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Enabled multiline-const, multiline-let, multiline-var for padding-line-between-statements
+- Updated ESLint to 5.10.0
+
 
 ## [5.0.10] - 2018-11-11
 
