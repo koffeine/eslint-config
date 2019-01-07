@@ -189,6 +189,7 @@ module.exports = {
 		'no-unused-vars': [ 'error', { 'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': false, 'caughtErrors': 'all' } ],
 		'no-use-before-define': [ 'error', { 'functions': true, 'classes': true, 'variables': true } ],
 		'no-useless-call': 'error',
+		'no-useless-catch': 'error',
 		'no-useless-computed-key': 'error',
 		'no-useless-concat': 'error',
 		'no-useless-constructor': 'error',
