@@ -259,6 +259,7 @@ module.exports = {
 		'prefer-arrow-callback': [ 'error', { 'allowNamedFunctions': false, 'allowUnboundThis': true } ],
 		// 'prefer-const': 'off',
 		// 'prefer-destructuring': 'off',
+		// 'prefer-named-capture-group': 'off',
 		// 'prefer-numeric-literals': 'off',
 		// 'prefer-object-spread': 'off',
 		// 'prefer-promise-reject-errors': 'off',
