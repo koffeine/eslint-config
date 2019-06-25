@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Enabled function-paren-newline as consistent
+
 
 ## [7.0.9] - 2019-04-01
 
