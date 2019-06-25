@@ -65,7 +65,7 @@ module.exports = {
 		// 'multiline-comment-style': 'off',
 		// 'multiline-ternary': 'off',
 		'new-cap': [ 'error', { 'newIsCap': true, 'capIsNew': true, 'properties': true } ],
-		'new-parens': 'error',
+		'new-parens': 'error', // TODO: After eslint fix change to: 'new-parens': [ 'error', 'always' ],
 		// 'newline-per-chained-call': 'off',
 		'no-alert': 'warn',
 		'no-array-constructor': 'error',
