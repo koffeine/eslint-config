@@ -269,7 +269,7 @@ module.exports = {
 		'quote-props': [ 'error', 'as-needed' ],
 		'quotes': [ 'error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': false } ],
 		'radix': [ 'error', 'as-needed' ],
-		'require-atomic-updates': 'error',
+		// 'require-atomic-updates': 'off', // TODO: https://github.com/eslint/eslint/issues/11899 => 'require-atomic-updates': 'error',
 		'require-await': 'error',
 		// 'require-jsdoc': 'off',
 		'require-unicode-regexp': 'error',

@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Fixed new-parens definition
+- Temporarily disabled require-atomic-updates until its fixed
 
 
 ## [8.0.0] - 2019-06-25
