@@ -207,7 +207,7 @@ module.exports = {
 		// 'object-property-newline': 'off',
 		// 'object-shorthand': 'off',
 		// 'one-var-declaration-per-line': 'off',
-		'one-var': [ 'error', { 'var': 'always', 'let': 'always', 'const': 'always', 'separateRequires': true } ],
+		// 'one-var': 'off',
 		'operator-assignment': [ 'error', 'always' ],
 		'operator-linebreak': [ 'error', 'before' ],
 		// 'padded-blocks': 'off',
