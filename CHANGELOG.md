@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Updated license
 - Updated .eslintrc.js
+- Removed .npmignore in favor of files in package.json
 
 
 ## [8.0.2] - 2019-07-18

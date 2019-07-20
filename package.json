@@ -12,6 +12,10 @@
   },
   "license": "MIT",
   "author": "Kornél Horváth <kornel.horvath@me.com>",
+  "files": [
+    "es5.js",
+    "es6+.js"
+  ],
   "main": "es6+.js",
   "repository": {
     "type": "git",
