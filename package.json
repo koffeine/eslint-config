@@ -22,9 +22,9 @@
     "url": "git+https://github.com/koffeine/eslint-config-koffeine.git"
   },
   "devDependencies": {
-    "eslint": "6.0.1"
+    "eslint": "6.1.0"
   },
   "peerDependencies": {
-    "eslint": "6.0.1"
+    "eslint": "6.1.0"
   }
 }
