@@ -32,24 +32,11 @@ npm install eslint@6.1.0 --save-dev --save-exact
 
 ## Usage
 
-__ES6+ config__
-
 Add the following to your .eslintrc.js file:
 
 ```js
 modules.exports = {
 	extends: 'koffeine',
-	...
-};
-```
-
-__ES5 config__
-
-Add the following to your .eslintrc.js file:
-
-```js
-modules.exports = {
-	extends: 'koffeine/es5',
 	...
 };
 ```
