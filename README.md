@@ -43,6 +43,6 @@ module.exports = {
 
 ## License
 
-Copyright © 2017-2019 Kornél Horváth
+Copyright © Kornél Horváth
 
 Licensed under the [MIT License](https://raw.githubusercontent.com/koffeine/eslint-config-koffeine/master/LICENSE).
