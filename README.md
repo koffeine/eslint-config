@@ -35,7 +35,7 @@ npm install eslint@6.1.0 --save-dev --save-exact
 Add the following to your .eslintrc.js file:
 
 ```js
-modules.exports = {
+module.exports = {
 	extends: 'koffeine',
 	...
 };
