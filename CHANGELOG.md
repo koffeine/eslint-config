@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Updated ESLint to 6.3.0
+- Enabled reportUnusedDisableDirectives
+
 
 ## [9.0.0] - 2019-08-23
 

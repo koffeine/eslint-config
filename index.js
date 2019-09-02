@@ -1,4 +1,5 @@
 module.exports = {
+	reportUnusedDisableDirectives: true,
 	rules: {
 		// 'accessor-pairs': 'off',
 		// 'array-bracket-newline': 'off',
@@ -105,7 +106,7 @@ module.exports = {
 		'no-extra-bind': 'error',
 		'no-extra-boolean-cast': 'error',
 		'no-extra-label': 'error',
-		'no-extra-parens': [ 'error', 'all', { 'conditionalAssign': true, 'returnAssign': true, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': true } ],
+		'no-extra-parens': [ 'error', 'all', { 'conditionalAssign': true, 'returnAssign': true, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': true, 'enforceForSequenceExpressions': true } ],
 		'no-extra-semi': 'error',
 		'no-fallthrough': [ 'error', { 'commentPattern': '^break omitted$' } ],
 		// 'no-floating-decimal': 'off',
