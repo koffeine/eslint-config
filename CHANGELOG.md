@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Updated ESLint to 6.4.0
+- Enabled enforceForClassMembers for computed-property-spacing rule
+- Enabled default-param-last rule
+- Enabled no-import-assign rule
+- Enabled prefer-regex-literals rule
+
 
 ## [10.0.0] - 2019-09-02
 
