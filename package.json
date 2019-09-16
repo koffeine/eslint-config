@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-koffeine",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "description": "Koffeine's ESLint shareable config",
   "keywords": [
     "eslint",
