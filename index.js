@@ -298,7 +298,7 @@ module.exports = {
 		'template-curly-spacing': [ 'error', 'never' ],
 		// 'template-tag-spacing': 'off',
 		'unicode-bom': [ 'error', 'never' ],
-		'use-isnan': 'error',
+		'use-isnan': [ 'error', { 'enforceForSwitchCase': true } ],
 		// 'valid-jsdoc': 'off',
 		'valid-typeof': [ 'error', { 'requireStringLiterals': true } ],
 		// 'vars-on-top': 'off',
