@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - package.json cleanup
+- Updated ESLint to 6.6.0
+- Enabled { enforceForSwitchCase: true } for use-isnan
+- Enabled { enforceForOrderingRelations: true } for no-unsafe-negation
+- Enabled { enforceForNewInMemberExpressions: false } for no-extra-parens
 
 
 ## [12.0.0] - 2019-10-03
