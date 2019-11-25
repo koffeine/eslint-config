@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Updated ESLint to 6.7.1
+- Enabled grouped-accessor-pairs with { 'anyOrder' }
+- Enabled no-constructor-return
+- Enabled no-dupe-else-if
+- Enabled no-setter-return
+- Enabled { ignoreDestructuring: false, ignoreImports: false } for camelcase
+- Enabled prefer-exponentiation-operator
+
 
 ## [13.0.0] - 2019-10-28
 
