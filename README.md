@@ -27,7 +27,7 @@ npm info eslint-config-koffeine peerDependencies
 For example:
 
 ```sh
-npm install eslint@6.7.1 --save-dev --save-exact
+npm install eslint@6.7.2 --save-dev --save-exact
 ```
 
 ## Usage
