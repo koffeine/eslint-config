@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Removed (already disabled) deprecated rules: require-jsdoc, valid-jsdoc
+
 
 ## [14.0.2] - 2020-01-06
 
