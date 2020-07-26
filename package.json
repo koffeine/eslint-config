@@ -18,8 +18,12 @@
     "type": "git",
     "url": "git+https://github.com/koffeine/eslint-config-koffeine.git"
   },
+  "scripts": {
+    "eslint-find-rules": "eslint-find-rules --deprecated --unused --no-error"
+  },
   "devDependencies": {
-    "eslint": "6.8.0"
+    "eslint": "6.8.0",
+    "eslint-find-rules": "3.6.0"
   },
   "peerDependencies": {
     "eslint": "6.8.0"
