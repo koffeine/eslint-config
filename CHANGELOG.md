@@ -19,10 +19,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Updated ESLint to 7.3.1
+- Updated ESLint to 7.4.0
 - Updated no-extra-boolean-cast rule with { 'enforceForLogicalOperands': true }
 - Updated no-void rule with { 'allowAsStatement': false }
 - Updated no-extra-parens rule with { 'enforceForFunctionPrototypeMethods': false }
+- Updated camelcase rule with { 'ignoreGlobals': false }
+- Renamed id-blacklist rule to id-denylist
 
 ### Removed
 
