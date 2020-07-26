@@ -11,6 +11,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - Added back eslint-find-rules as a devDependency
+- Enabled default-case-last rule
+- Enabled no-useless-backreference rule
+
+### Changed
+
+- Updated ESLint to 7.0.0
+- Updated no-extra-boolean-cast rule with { 'enforceForLogicalOperands': true }
+- Updated no-void rule with { 'allowAsStatement': false }
+
+### Removed
+
+- Removed deprecated rules
 
 
 ## [14.0.3] - 2020-07-24
