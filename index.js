@@ -107,7 +107,7 @@ module.exports = {
 		'no-extra-bind': 'error',
 		'no-extra-boolean-cast': [ 'error', { 'enforceForLogicalOperands': true } ],
 		'no-extra-label': 'error',
-		'no-extra-parens': [ 'error', 'all', { 'conditionalAssign': true, 'returnAssign': true, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': true, 'enforceForSequenceExpressions': true, 'enforceForNewInMemberExpressions': false } ],
+		'no-extra-parens': [ 'error', 'all', { 'conditionalAssign': true, 'returnAssign': true, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': true, 'enforceForSequenceExpressions': true, 'enforceForNewInMemberExpressions': false, 'enforceForFunctionPrototypeMethods': false } ],
 		'no-extra-semi': 'error',
 		'no-fallthrough': [ 'error', { 'commentPattern': '^break omitted$' } ],
 		// 'no-floating-decimal': 'off',
