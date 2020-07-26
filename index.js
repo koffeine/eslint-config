@@ -128,6 +128,7 @@ module.exports = {
 		'no-lone-blocks': 'error',
 		// 'no-lonely-if': 'off',
 		'no-loop-func': 'error',
+		'no-loss-of-precision': 'error',
 		// 'no-magic-numbers': 'off',
 		'no-misleading-character-class': 'error',
 		'no-mixed-operators': [ 'error', { 'allowSamePrecedence': true } ],

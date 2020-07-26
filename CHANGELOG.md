@@ -13,10 +13,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added back eslint-find-rules as a devDependency
 - Enabled default-case-last rule
 - Enabled no-useless-backreference rule
+- Enabled no-loss-of-precision rule
 
 ### Changed
 
-- Updated ESLint to 7.0.0
+- Updated ESLint to 7.1.0
 - Updated no-extra-boolean-cast rule with { 'enforceForLogicalOperands': true }
 - Updated no-void rule with { 'allowAsStatement': false }
 
