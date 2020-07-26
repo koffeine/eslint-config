@@ -14,10 +14,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Enabled default-case-last rule
 - Enabled no-useless-backreference rule
 - Enabled no-loss-of-precision rule
+- Enabled no-promise-executor-return rule
+- Enabled no-unreachable-loop rule
 
 ### Changed
 
-- Updated ESLint to 7.2.0
+- Updated ESLint to 7.3.0
 - Updated no-extra-boolean-cast rule with { 'enforceForLogicalOperands': true }
 - Updated no-void rule with { 'allowAsStatement': false }
 - Updated no-extra-parens rule with { 'enforceForFunctionPrototypeMethods': false }
