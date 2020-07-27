@@ -1,8 +1,8 @@
 # eslint-config-koffeine
 
-[![npm version](https://img.shields.io/npm/v/eslint-config-koffeine.svg)](https://www.npmjs.com/package/eslint-config-koffeine)
-[![devDependency Status](https://david-dm.org/koffeine/eslint-config-koffeine/dev-status.svg)](https://david-dm.org/koffeine/eslint-config-koffeine?type=dev)
-[![peerDependency Status](https://david-dm.org/koffeine/eslint-config-koffeine/peer-status.svg)](https://david-dm.org/koffeine/eslint-config-koffeine?type=peer)
+[![npm](https://img.shields.io/npm/v/eslint-config-koffeine)](https://www.npmjs.com/package/eslint-config-koffeine)
+[![devDependencies Status](https://david-dm.org/koffeine/eslint-config-koffeine/dev-status.svg)](https://david-dm.org/koffeine/eslint-config-koffeine?type=dev)
+[![peerDependencies Status](https://david-dm.org/koffeine/eslint-config-koffeine/peer-status.svg)](https://david-dm.org/koffeine/eslint-config-koffeine?type=peer)
 
 Koffeine's ESLint shareable config
 
