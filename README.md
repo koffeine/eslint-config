@@ -1,6 +1,6 @@
 # eslint-config
 
-[![npm](https://img.shields.io/npm/v/eslint-config-koffeine)](https://www.npmjs.com/package/eslint-config-koffeine)
+[![npm (scoped)](https://img.shields.io/npm/v/@koffeine/eslint-config)](https://www.npmjs.com/package/@koffeine/eslint-config)
 [![devDependencies Status](https://david-dm.org/koffeine/eslint-config/dev-status.svg)](https://david-dm.org/koffeine/eslint-config?type=dev)
 [![peerDependencies Status](https://david-dm.org/koffeine/eslint-config/peer-status.svg)](https://david-dm.org/koffeine/eslint-config?type=peer)
 
@@ -13,7 +13,7 @@ Use option `--save-exact` for npm install to make sure that ESLint and config ru
 __Install config__
 
 ```sh
-npm install eslint-config-koffeine --save-dev --save-exact
+npm install @koffeine/eslint-config --save-dev --save-exact
 ```
 
 __Install ESLint__
@@ -21,7 +21,7 @@ __Install ESLint__
 Install the correct version of ESLint, which is listed by the command:
 
 ```sh
-npm info eslint-config-koffeine peerDependencies
+npm info @koffeine/eslint-config peerDependencies
 ```
 
 For example:
@@ -36,7 +36,7 @@ Add the following to your .eslintrc.js file:
 
 ```js
 module.exports = {
-	extends: 'koffeine',
+	extends: '@koffeine',
 	...
 };
 ```
