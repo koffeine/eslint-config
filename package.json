@@ -6,9 +6,9 @@
     "eslint",
     "eslintconfig"
   ],
-  "homepage": "https://github.com/koffeine/eslint-config-koffeine",
+  "homepage": "https://github.com/koffeine/eslint-config",
   "bugs": {
-    "url": "https://github.com/koffeine/eslint-config-koffeine/issues"
+    "url": "https://github.com/koffeine/eslint-config/issues"
   },
   "license": "MIT",
   "author": "Kornél Horváth <kornel.horvath@me.com>",
@@ -16,7 +16,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koffeine/eslint-config-koffeine.git"
+    "url": "git+https://github.com/koffeine/eslint-config.git"
   },
   "scripts": {
     "test": "eslint-find-rules --deprecated --unused index.js --no-error"

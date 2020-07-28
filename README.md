@@ -1,8 +1,8 @@
-# eslint-config-koffeine
+# eslint-config
 
 [![npm](https://img.shields.io/npm/v/eslint-config-koffeine)](https://www.npmjs.com/package/eslint-config-koffeine)
-[![devDependencies Status](https://david-dm.org/koffeine/eslint-config-koffeine/dev-status.svg)](https://david-dm.org/koffeine/eslint-config-koffeine?type=dev)
-[![peerDependencies Status](https://david-dm.org/koffeine/eslint-config-koffeine/peer-status.svg)](https://david-dm.org/koffeine/eslint-config-koffeine?type=peer)
+[![devDependencies Status](https://david-dm.org/koffeine/eslint-config/dev-status.svg)](https://david-dm.org/koffeine/eslint-config?type=dev)
+[![peerDependencies Status](https://david-dm.org/koffeine/eslint-config/peer-status.svg)](https://david-dm.org/koffeine/eslint-config?type=peer)
 
 Koffeine's ESLint shareable config
 
@@ -45,4 +45,4 @@ module.exports = {
 
 Copyright © Kornél Horváth
 
-Licensed under the [MIT License](https://raw.githubusercontent.com/koffeine/eslint-config-koffeine/master/LICENSE).
+Licensed under the [MIT License](https://raw.githubusercontent.com/koffeine/eslint-config/master/LICENSE).
