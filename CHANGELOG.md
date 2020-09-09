@@ -10,7 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- Updated no-underscore-dangle rule with { allowAfterThis: false, allowAfterThisConstructor: false }
+- Updated ESLint to 7.7.0
+- Updated no-underscore-dangle rule with { allowAfterThis: false, allowAfterThisConstructor: false, allowFunctionParams: false }
 - Explicitly turned off unused rules
 - Updated devDependencies
 
