@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
+- Updated no-underscore-dangle rule with { allowAfterThis: false, allowAfterThisConstructor: false }
 - Explicitly turned off unused rules
 - Updated devDependencies
 
