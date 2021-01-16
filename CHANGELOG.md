@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Enabled no-nonoctal-decimal-escape rule
+- Enabled no-unsafe-optional-chaining rule with { disallowArithmeticOperators: true }
+
+### Changed
+
+- Updated ESLint to 7.18.0
+
 
 ## [16.0.2] - 2020-10-07
 
