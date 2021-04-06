@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
+- Updated ESLint to 7.23.0
+- Updated no-unused-expressions rule with { enforceForJSX: false }
+- Updated no-sequences rule with { allowInParentheses: false }
 - Changed EditorConfig link to https
 
 
