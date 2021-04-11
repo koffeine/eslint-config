@@ -113,7 +113,7 @@ module.exports = {
 		'no-floating-decimal': 'off',
 		'no-func-assign': 'error',
 		'no-global-assign': 'error',
-		'no-implicit-coercion': [ 'error', { 'boolean': true, 'number': true, 'string': true } ],
+		'no-implicit-coercion': [ 'error', { 'boolean': true, 'number': true, 'string': true, 'disallowTemplateShorthand': true } ],
 		'no-implicit-globals': 'off',
 		'no-implied-eval': 'error',
 		'no-import-assign': 'error',
