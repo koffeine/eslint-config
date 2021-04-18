@@ -19,7 +19,7 @@
     "url": "git+https://github.com/koffeine/eslint-config.git"
   },
   "scripts": {
-    "test": "eslint-find-rules --deprecated --unused index.js --no-error"
+    "test": "eslint index.js && eslint-find-rules --deprecated --unused index.js"
   },
   "devDependencies": {
     "eslint": "7.24.0",
