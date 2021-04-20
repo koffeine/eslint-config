@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated project files
+- Updated func-style rule with 'declaration', { allowArrowFunctions: true }
 
 
 ## [19.0.0] - 2021-04-11
