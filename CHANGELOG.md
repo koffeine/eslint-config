@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated ESLint to 7.26.0
+
 
 ## [19.1.1] - 2021-04-27
 
