@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [20.0.0] - 2021-10-07
+
 ### Changed
 
 - Updated func-style rule with 'expression', { allowArrowFunctions: true }
