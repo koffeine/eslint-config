@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [21.0.0] - 2021-10-09
+
 ### Changed
 
 - Updated eol-last with always
