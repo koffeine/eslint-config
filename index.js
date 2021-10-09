@@ -31,7 +31,7 @@ module.exports = {
 		'default-param-last': 'error',
 		'dot-location': [ 'error', 'property' ],
 		'dot-notation': [ 'error', { 'allowKeywords': true } ],
-		'eol-last': [ 'error', 'never' ],
+		'eol-last': [ 'error', 'always' ],
 		'eqeqeq': [ 'error', 'smart' ],
 		'for-direction': 'off',
 		'func-call-spacing': [ 'error', 'never' ],

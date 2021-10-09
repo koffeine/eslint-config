@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Updated eol-last with always
 - Updated .editorconfig
 - Changed js files to strict mode
 
