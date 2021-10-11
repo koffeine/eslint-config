@@ -2,7 +2,7 @@
 
 module.exports = {
 	root: true,
-	extends: './index.js',
+	extends: './src/index.js',
 	parserOptions: {
 		ecmaVersion: 'latest',
 		sourceType: 'script'
