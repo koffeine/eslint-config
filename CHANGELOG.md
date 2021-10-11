@@ -13,16 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated eol-last with always
-- Updated .editorconfig
-- Changed js files to strict mode
+- Updated eol-last rule with `'always'`
 
 
 ## [20.0.0] - 2021-10-07
 
 ### Changed
 
-- Updated func-style rule with 'expression', { allowArrowFunctions: true }
+- Updated func-style rule with `'expression', { allowArrowFunctions: true }`
 
 
 ## [19.1.3] - 2021-08-07
@@ -50,8 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated project files
-- Updated func-style rule with 'declaration', { allowArrowFunctions: true }
+- Updated func-style rule with `'declaration', { allowArrowFunctions: true }`
 
 
 ## [19.0.0] - 2021-04-11
@@ -59,7 +56,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 7.24.0
-- Updated no-implicit-coercion rule with { disallowTemplateShorthand: true }
+- Updated no-implicit-coercion rule with `{ boolean: true, number: true, string: true, disallowTemplateShorthand: true }`
 
 
 ## [18.0.0] - 2021-04-06
@@ -67,22 +64,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 7.23.0
-- Updated no-unused-expressions rule with { enforceForJSX: false }
-- Updated no-sequences rule with { allowInParentheses: false }
-- Changed EditorConfig link to https
+- Updated no-sequences rule with `{ allowInParentheses: false }`
+- Updated no-unused-expressions rule with `{ allowShortCircuit: false, allowTernary: false, allowTaggedTemplates: false, enforceForJSX: false }`
 
 
 ## [17.0.0] - 2021-01-16
 
-### Added
-
-- Enabled no-nonoctal-decimal-escape rule
-- Enabled no-unsafe-optional-chaining rule with { disallowArithmeticOperators: true }
-
 ### Changed
 
 - Updated ESLint to 7.18.0
-- CHANGELOG.md cleanup
+- Enabled no-nonoctal-decimal-escape rule
+- Enabled no-unsafe-optional-chaining rule with `{ disallowArithmeticOperators: true }`
 
 
 ## [16.0.2] - 2020-10-07
@@ -104,9 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 7.8.1
-- Updated no-underscore-dangle rule with { allowAfterThis: false, allowAfterThisConstructor: false, allowFunctionParams: false }
-- Explicitly turned off unused rules
-- Updated devDependencies
+- Updated no-underscore-dangle rule with `{ allowAfterThis: false, allowAfterSuper: false, allowAfterThisConstructor: false, enforceInMethodNames: true, allowFunctionParams: false }`
 
 
 ## [15.0.2] - 2020-08-04
@@ -120,41 +110,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Renamed GitHub repository
-- Renamed package to @koffeine/eslint-config
-- Test cleanup
+- Renamed package to `@koffeine/eslint-config`
 
 
 ## [15.0.0] - 2020-07-26
 
-### Added
-
-- Added back eslint-find-rules as a devDependency
-- Enabled default-case-last rule
-- Enabled no-useless-backreference rule
-- Enabled no-loss-of-precision rule
-- Enabled no-promise-executor-return rule
-- Enabled no-unreachable-loop rule
-
 ### Changed
 
 - Updated ESLint to 7.5.0
-- Updated no-extra-boolean-cast rule with { enforceForLogicalOperands: true }
-- Updated no-void rule with { allowAsStatement: false }
-- Updated no-extra-parens rule with { enforceForFunctionPrototypeMethods: false }
-- Updated camelcase rule with { ignoreGlobals: false }
-- Renamed id-blacklist rule to id-denylist
-
-### Removed
-
-- Removed deprecated rules
+- Updated camelcase rule with `{ properties: 'always', ignoreDestructuring: false, ignoreImports: false, ignoreGlobals: false }`
+- Enabled default-case-last rule
+- Disabled global-require rule
+- Disabled no-buffer-constructor rule
+- Updated no-extra-boolean-cast rule with `{ enforceForLogicalOperands: true }`
+- Updated no-extra-parens rule with `{ conditionalAssign: true, returnAssign: true, nestedBinaryExpressions: false, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true, enforceForNewInMemberExpressions: false, enforceForFunctionPrototypeMethods: false }`
+- Enabled no-loss-of-precision rule
+- Disabled no-mixed-requires rule
+- Disabled no-new-require rule
+- Disabled no-path-concat rule
+- Disabled no-process-env rule
+- Disabled no-process-exit rule
+- Enabled no-promise-executor-return rule
+- Enabled no-unreachable-loop rule
+- Enabled no-useless-backreference rule
+- Updated no-void rule with `{ allowAsStatement: false }`
 
 
 ## [14.0.3] - 2020-07-24
-
-### Changed
-
-- Removed (already disabled) deprecated rules: require-jsdoc, valid-jsdoc
 
 
 ## [14.0.2] - 2020-01-06
@@ -176,23 +158,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 6.7.1
-- Enabled grouped-accessor-pairs with 'anyOrder'
-- Enabled no-constructor-return
-- Enabled no-dupe-else-if
-- Enabled no-setter-return
-- Enabled { ignoreDestructuring: false, ignoreImports: false } for camelcase
-- Enabled prefer-exponentiation-operator
+- Updated camelcase rule with `{ properties: 'always', ignoreDestructuring: false, ignoreImports: false }`
+- Enabled grouped-accessor-pairs rule with `'anyOrder'`
+- Enabled no-constructor-return rule
+- Enabled no-dupe-else-if rule
+- Enabled no-setter-return rule
+- Enabled prefer-exponentiation-operator rule
 
 
 ## [13.0.0] - 2019-10-28
 
 ### Changed
 
-- package.json cleanup
 - Updated ESLint to 6.6.0
-- Enabled { enforceForSwitchCase: true } for use-isnan
-- Enabled { enforceForOrderingRelations: true } for no-unsafe-negation
-- Enabled { enforceForNewInMemberExpressions: false } for no-extra-parens
+- Updated no-extra-parens rule with `{ conditionalAssign: true, returnAssign: true, nestedBinaryExpressions: false, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true, enforceForNewInMemberExpressions: false }`
+- Updated no-unsafe-negation rule with `{ enforceForOrderingRelations: true }`
+- Updated use-isnan rule with `{ enforceForSwitchCase: true, enforceForIndexOf: true }`
 
 
 ## [12.0.0] - 2019-10-03
@@ -200,7 +181,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 6.5.1
-- Enabled { enforceForSwitchCase: true } for use-isnan rule
+- Updated use-isnan rule with `{ enforceForSwitchCase: true }`
 
 
 ## [11.0.0] - 2019-09-16
@@ -208,7 +189,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 6.4.0
-- Enabled enforceForClassMembers for computed-property-spacing rule
+- Updated computed-property-spacing rule with `'never', { enforceForClassMembers: true }`
 - Enabled default-param-last rule
 - Enabled no-import-assign rule
 - Enabled prefer-regex-literals rule
@@ -219,29 +200,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 6.3.0
-- Enabled reportUnusedDisableDirectives
+- Enabled reportUnusedDisableDirectives feature
+- Updated no-extra-parens rule with `{ conditionalAssign: true, returnAssign: true, nestedBinaryExpressions: false, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true }`
 
 
 ## [9.0.0] - 2019-08-23
 
 ### Changed
 
-- Fixed typo in README.md
-- Removed years from license
 - Updated ESLint to 6.2.1
 
 ### Removed
 
-- ES5 syntax support
+- Removed ES5 syntax support
 
 
 ## [8.0.3] - 2019-07-22
 
 ### Changed
 
-- Updated license
-- Updated .eslintrc.js
-- Removed .npmignore in favor of files in package.json
 - Updated ESLint to 6.1.0
 
 
@@ -249,23 +226,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Changed
 
-- Disabled one-var
+- Disabled one-var rule
 
 
 ## [8.0.1] - 2019-07-01
 
 ### Changed
 
-- Fixed new-parens definition
-- Temporarily disabled require-atomic-updates until its fixed
+- Updated new-parens rule with `'always'`
+- Disabled require-atomic-updates rule
 
 
 ## [8.0.0] - 2019-06-25
 
 ### Changed
 
-- Enabled function-paren-newline as consistent
 - Updated ESLint to 6.0.1
+- Enabled function-paren-newline rule with `'consistent'`
 
 
 ## [7.0.9] - 2019-04-01
@@ -336,23 +313,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 5.12.0
-- Enabled no-useless-catch
+- Enabled no-useless-catch rule
 
 
 ## [6.0.0] - 2018-12-10
 
 ### Changed
 
-- Enabled multiline-const, multiline-let, multiline-var for padding-line-between-statements
 - Updated ESLint to 5.10.0
+- Updated padding-line-between-statements rule
 
 
 ## [5.0.10] - 2018-11-11
-
-### Removed
-
-- eslint-find-rules as a devDependency
-- Unnecessary files from published package
 
 
 ## [5.0.9] - 2018-11-11
@@ -364,32 +336,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [5.0.8] - 2018-11-06
 
-### Fixed
-
-- License link in README.md
-
 
 ## [5.0.7] - 2018-11-06
 
-### Changed
-
-- Updated license
-
 
 ## [5.0.6] - 2018-11-04
-
-### Changed
-
-- Updated license
-- Updated .gitignore
-- Updated README.md
-- Renamed es6.js to es6+.js
-- Disabled package-lock.json
-- Reordered package.json properties
-
-### Fixed
-
-- Linting errors
 
 
 ## [5.0.5] - 2018-10-27
@@ -432,7 +383,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 5.3.0
-- Enabled the following rules: no-misleading-character-class, require-atomic-updates, no-async-promise-executor, require-unicode-regexp
+- Enabled no-async-promise-executor rule
+- Enabled no-misleading-character-class rule
+- Enabled require-atomic-updates rule
+- Enabled require-unicode-regexp rule
 
 
 ## [4.0.2] - 2018-07-23
@@ -454,21 +408,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 5.0.1
-- Enabled array-element-newline rule with 'consistent'
+- Enabled array-element-newline rule with `'consistent'`
 
 
 ## [3.0.6] - 2018-03-10
 
 ### Changed
 
-- Underscore dangles are now allowed after this
+- Updated no-underscore-dangle rule with `{ allowAfterThis: true, allowAfterSuper: false, enforceInMethodNames: true }`
 
 
 ## [3.0.5] - 2018-03-22
 
-### Fixed
+### Changed
 
-- Changed one-var rule back to 'always', because consecutive mode ignores the separateRequires flag
+- Updated one-var rule with `{ var: 'always', let: 'always', const: 'always', separateRequires: true }`
 
 
 ## [3.0.4] - 2018-03-22
@@ -504,7 +458,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 4.17.0
-- Extended configuration of padding-line-between-statements rule
+- Updated padding-line-between-statements rule
 
 
 ## [2.0.2] - 2018-01-23
@@ -526,7 +480,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated ESLint to 4.14.0
-- Enabled one-var rule
+- Enabled one-var rule with `{ var: 'always', let: 'always', const: 'always', separateRequires: true }`
 
 
 ## [1.1.4] - 2017-12-12
@@ -554,7 +508,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Fixed badge links in README.md
 - Updated ESLint to 4.12.0
 
 
@@ -562,11 +515,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- ES5 compatibility mode
+- Added ES5 syntax support
 
 ### Changed
 
-- no-shadow.builtinGlobals from true to false
+- Updated no-shadow rule with `{ builtinGlobals: false, hoist: 'all' }`
 
 
 ## [1.0.0] - 2017-11-21
