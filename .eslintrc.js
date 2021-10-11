@@ -4,7 +4,7 @@ module.exports = {
 	root: true,
 	extends: './index.js',
 	parserOptions: {
-		ecmaVersion: 2021, // 12
+		ecmaVersion: 'latest',
 		sourceType: 'script'
 	},
 	env: {
