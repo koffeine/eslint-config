@@ -1,9 +1,5 @@
 # eslint-config
 
-[![npm (scoped)](https://img.shields.io/npm/v/@koffeine/eslint-config)](https://www.npmjs.com/package/@koffeine/eslint-config)
-[![devDependencies Status](https://david-dm.org/koffeine/eslint-config/dev-status.svg)](https://david-dm.org/koffeine/eslint-config?type=dev)
-[![peerDependencies Status](https://david-dm.org/koffeine/eslint-config/peer-status.svg)](https://david-dm.org/koffeine/eslint-config?type=peer)
-
 Koffeine's ESLint shareable config
 
 ## Installation
