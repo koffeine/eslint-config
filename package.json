@@ -19,11 +19,10 @@
     "url": "git+https://github.com/koffeine/eslint-config.git"
   },
   "scripts": {
-    "test": "eslint src && eslint-find-rules --deprecated --unused src/index.js"
+    "test": "eslint src test && node test src/index.js"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-find-rules": "3.6.1"
+    "eslint": "7.32.0"
   },
   "peerDependencies": {
     "eslint": "7.32.0"
