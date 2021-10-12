@@ -27,21 +27,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 7.32.0
+- Updated eslint to 7.32.0
 
 
 ## [19.1.2] - 2021-05-13
 
 ### Changed
 
-- Updated ESLint to 7.26.0
+- Updated eslint to 7.26.0
 
 
 ## [19.1.1] - 2021-04-27
 
 ### Changed
 
-- Updated ESLint to 7.25.0
+- Updated eslint to 7.25.0
 
 
 ## [19.1.0] - 2021-04-20
@@ -55,7 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 7.24.0
+- Updated eslint to 7.24.0
 - Updated no-implicit-coercion rule with `{ boolean: true, number: true, string: true, disallowTemplateShorthand: true }`
 
 
@@ -63,7 +63,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 7.23.0
+- Updated eslint to 7.23.0
 - Updated no-sequences rule with `{ allowInParentheses: false }`
 - Updated no-unused-expressions rule with `{ allowShortCircuit: false, allowTernary: false, allowTaggedTemplates: false, enforceForJSX: false }`
 
@@ -72,7 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 7.18.0
+- Updated eslint to 7.18.0
 - Enabled no-nonoctal-decimal-escape rule
 - Enabled no-unsafe-optional-chaining rule with `{ disallowArithmeticOperators: true }`
 
@@ -81,21 +81,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 7.10.0
+- Updated eslint to 7.10.0
 
 
 ## [16.0.1] - 2020-09-15
 
 ### Changed
 
-- Updated ESLint to 7.9.0
+- Updated eslint to 7.9.0
 
 
 ## [16.0.0] - 2020-09-09
 
 ### Changed
 
-- Updated ESLint to 7.8.1
+- Updated eslint to 7.8.1
 - Updated no-underscore-dangle rule with `{ allowAfterThis: false, allowAfterSuper: false, allowAfterThisConstructor: false, enforceInMethodNames: true, allowFunctionParams: false }`
 
 
@@ -103,7 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 7.6.0
+- Updated eslint to 7.6.0
 
 
 ## [15.0.1] - 2020-07-28
@@ -117,7 +117,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 7.5.0
+- Updated eslint to 7.5.0
 - Updated camelcase rule with `{ properties: 'always', ignoreDestructuring: false, ignoreImports: false, ignoreGlobals: false }`
 - Enabled default-case-last rule
 - Disabled global-require rule
@@ -143,21 +143,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.8.0
+- Updated eslint to 6.8.0
 
 
 ## [14.0.1] - 2019-12-02
 
 ### Changed
 
-- Updated ESLint to 6.7.2
+- Updated eslint to 6.7.2
 
 
 ## [14.0.0] - 2019-11-25
 
 ### Changed
 
-- Updated ESLint to 6.7.1
+- Updated eslint to 6.7.1
 - Updated camelcase rule with `{ properties: 'always', ignoreDestructuring: false, ignoreImports: false }`
 - Enabled grouped-accessor-pairs rule with `'anyOrder'`
 - Enabled no-constructor-return rule
@@ -170,7 +170,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.6.0
+- Updated eslint to 6.6.0
 - Updated no-extra-parens rule with `{ conditionalAssign: true, returnAssign: true, nestedBinaryExpressions: false, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true, enforceForNewInMemberExpressions: false }`
 - Updated no-unsafe-negation rule with `{ enforceForOrderingRelations: true }`
 - Updated use-isnan rule with `{ enforceForSwitchCase: true, enforceForIndexOf: true }`
@@ -180,7 +180,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.5.1
+- Updated eslint to 6.5.1
 - Updated use-isnan rule with `{ enforceForSwitchCase: true }`
 
 
@@ -188,7 +188,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.4.0
+- Updated eslint to 6.4.0
 - Updated computed-property-spacing rule with `'never', { enforceForClassMembers: true }`
 - Enabled default-param-last rule
 - Enabled no-import-assign rule
@@ -199,7 +199,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.3.0
+- Updated eslint to 6.3.0
 - Enabled reportUnusedDisableDirectives feature
 - Updated no-extra-parens rule with `{ conditionalAssign: true, returnAssign: true, nestedBinaryExpressions: false, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true }`
 
@@ -208,7 +208,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.2.1
+- Updated eslint to 6.2.1
 
 ### Removed
 
@@ -219,7 +219,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.1.0
+- Updated eslint to 6.1.0
 
 
 ## [8.0.2] - 2019-07-18
@@ -241,7 +241,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 6.0.1
+- Updated eslint to 6.0.1
 - Enabled function-paren-newline rule with `'consistent'`
 
 
@@ -249,70 +249,70 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 5.16.0
+- Updated eslint to 5.16.0
 
 
 ## [7.0.8] - 2019-03-19
 
 ### Changed
 
-- Updated ESLint to 5.15.3
+- Updated eslint to 5.15.3
 
 
 ## [7.0.7] - 2019-03-18
 
 ### Changed
 
-- Updated ESLint to 5.15.2
+- Updated eslint to 5.15.2
 
 
 ## [7.0.6] - 2019-03-05
 
 ### Changed
 
-- Updated ESLint to 5.15.1
+- Updated eslint to 5.15.1
 
 
 ## [7.0.5] - 2019-03-04
 
 ### Changed
 
-- Updated ESLint to 5.15.0
+- Updated eslint to 5.15.0
 
 
 ## [7.0.4] - 2019-02-19
 
 ### Changed
 
-- Updated ESLint to 5.14.1
+- Updated eslint to 5.14.1
 
 
 ## [7.0.3] - 2019-02-18
 
 ### Changed
 
-- Updated ESLint to 5.14.0
+- Updated eslint to 5.14.0
 
 
 ## [7.0.2] - 2019-02-04
 
 ### Changed
 
-- Updated ESLint to 5.13.0
+- Updated eslint to 5.13.0
 
 
 ## [7.0.1] - 2019-01-21
 
 ### Changed
 
-- Updated ESLint to 5.12.1
+- Updated eslint to 5.12.1
 
 
 ## [7.0.0] - 2019-01-07
 
 ### Changed
 
-- Updated ESLint to 5.12.0
+- Updated eslint to 5.12.0
 - Enabled no-useless-catch rule
 
 
@@ -320,7 +320,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 5.10.0
+- Updated eslint to 5.10.0
 - Updated padding-line-between-statements rule with `{ prev: '*', next: 'block', blankLine: 'always' }, { prev: 'block', next: '*', blankLine: 'always' }, { prev: '*', next: 'block-like', blankLine: 'always' }, { prev: 'block-like', next: '*', blankLine: 'always' }, { prev: '*', next: 'class', blankLine: 'always' }, { prev: 'class', next: '*', blankLine: 'always' }, { prev: '*', next: 'do', blankLine: 'always' }, { prev: 'do', next: '*', blankLine: 'always' }, { prev: '*', next: 'for', blankLine: 'always' }, { prev: 'for', next: '*', blankLine: 'always' }, { prev: '*', next: 'function', blankLine: 'always' }, { prev: 'function', next: '*', blankLine: 'always' }, { prev: '*', next: 'if', blankLine: 'always' }, { prev: 'if', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-block-like', blankLine: 'always' }, { prev: 'multiline-block-like', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-const', blankLine: 'always' }, { prev: 'multiline-const', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-let', blankLine: 'always' }, { prev: 'multiline-let', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-var', blankLine: 'always' }, { prev: 'multiline-var', next: '*', blankLine: 'always' }, { prev: '*', next: 'switch', blankLine: 'always' }, { prev: 'switch', next: '*', blankLine: 'always' }, { prev: '*', next: 'try', blankLine: 'always' }, { prev: 'try', next: '*', blankLine: 'always' }, { prev: '*', next: 'while', blankLine: 'always' }, { prev: 'while', next: '*', blankLine: 'always' }`
 
 
@@ -331,7 +331,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 5.9.0
+- Updated eslint to 5.9.0
 
 
 ## [5.0.8] - 2018-11-06
@@ -347,42 +347,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 5.8.0
+- Updated eslint to 5.8.0
 
 
 ## [5.0.4] - 2018-10-15
 
 ### Changed
 
-- Updated ESLint to 5.7.0
+- Updated eslint to 5.7.0
 
 
 ## [5.0.3] - 2018-09-30
 
 ### Changed
 
-- Updated ESLint to 5.6.1
+- Updated eslint to 5.6.1
 
 
 ## [5.0.2] - 2018-09-17
 
 ### Changed
 
-- Updated ESLint to 5.6.0
+- Updated eslint to 5.6.0
 
 
 ## [5.0.1] - 2018-09-03
 
 ### Changed
 
-- Updated ESLint to 5.5.0
+- Updated eslint to 5.5.0
 
 
 ## [5.0.0] - 2018-08-06
 
 ### Changed
 
-- Updated ESLint to 5.3.0
+- Updated eslint to 5.3.0
 - Enabled no-async-promise-executor rule
 - Enabled no-misleading-character-class rule
 - Enabled require-atomic-updates rule
@@ -393,21 +393,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 5.2.0
+- Updated eslint to 5.2.0
 
 
 ## [4.0.1] - 2018-07-09
 
 ### Changed
 
-- Updated ESLint to 5.1.0
+- Updated eslint to 5.1.0
 
 
 ## [4.0.0] - 2018-07-05
 
 ### Changed
 
-- Updated ESLint to 5.0.1
+- Updated eslint to 5.0.1
 - Enabled array-element-newline rule with `'consistent'`
 
 
@@ -429,35 +429,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 4.19.1
+- Updated eslint to 4.19.1
 
 
 ## [3.0.3] - 2018-03-05
 
 ### Changed
 
-- Updated ESLint to 4.18.2
+- Updated eslint to 4.18.2
 
 
 ## [3.0.2] - 2018-02-21
 
 ### Changed
 
-- Updated ESLint to 4.18.1
+- Updated eslint to 4.18.1
 
 
 ## [3.0.1] - 2018-02-19
 
 ### Changed
 
-- Updated ESLint to 4.18.0
+- Updated eslint to 4.18.0
 
 
 ## [3.0.0] - 2018-02-05
 
 ### Changed
 
-- Updated ESLint to 4.17.0
+- Updated eslint to 4.17.0
 - Updated padding-line-between-statements rule with `{ blankLine: 'always', prev: '*', next: 'block-like' }, { blankLine: 'always', prev: 'block-like', next: '*' }, { blankLine: 'always', prev: '*', next: 'block' }, { blankLine: 'always', prev: 'block', next: '*' }, { blankLine: 'always', prev: '*', next: 'class' }, { blankLine: 'always', prev: 'class', next: '*' }, { blankLine: 'always', prev: '*', next: 'do' }, { blankLine: 'always', prev: 'do', next: '*' }, { blankLine: 'always', prev: '*', next: 'for' }, { blankLine: 'always', prev: 'for', next: '*' }, { blankLine: 'always', prev: '*', next: 'function' }, { blankLine: 'always', prev: 'function', next: '*' }, { blankLine: 'always', prev: '*', next: 'if' }, { blankLine: 'always', prev: 'if', next: '*' }, { blankLine: 'always', prev: '*', next: 'multiline-block-like' }, { blankLine: 'always', prev: 'multiline-block-like', next: '*' }, { blankLine: 'always', prev: '*', next: 'switch' }, { blankLine: 'always', prev: 'switch', next: '*' }, { blankLine: 'always', prev: '*', next: 'try' }, { blankLine: 'always', prev: 'try', next: '*' }, { blankLine: 'always', prev: '*', next: 'while' }, { blankLine: 'always', prev: 'while', next: '*' }`
 
 
@@ -465,21 +465,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 4.16.0
+- Updated eslint to 4.16.0
 
 
 ## [2.0.1] - 2018-01-08
 
 ### Changed
 
-- Updated ESLint to 4.15.0
+- Updated eslint to 4.15.0
 
 
 ## [2.0.0] - 2017-12-24
 
 ### Changed
 
-- Updated ESLint to 4.14.0
+- Updated eslint to 4.14.0
 - Enabled one-var rule with `{ var: 'always', let: 'always', const: 'always', separateRequires: true }`
 
 
@@ -487,28 +487,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated ESLint to 4.13.1
+- Updated eslint to 4.13.1
 
 
 ## [1.1.3] - 2017-12-11
 
 ### Changed
 
-- Updated ESLint to 4.13.0
+- Updated eslint to 4.13.0
 
 
 ## [1.1.2] - 2017-11-30
 
 ### Changed
 
-- Updated ESLint to 4.12.1
+- Updated eslint to 4.12.1
 
 
 ## [1.1.1] - 2017-11-26
 
 ### Changed
 
-- Updated ESLint to 4.12.0
+- Updated eslint to 4.12.0
 
 
 ## [1.1.0] - 2017-11-21
