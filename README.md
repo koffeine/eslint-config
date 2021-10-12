@@ -32,8 +32,7 @@ Add the following to your .eslintrc.js file:
 
 ```js
 module.exports = {
-	extends: '@koffeine',
-	...
+	extends: '@koffeine'
 };
 ```
 
