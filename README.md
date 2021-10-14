@@ -1,4 +1,7 @@
-# eslint-config
+<h1>
+	eslint-config
+	<a href="https://www.npmjs.com/package/@koffeine/eslint-config"><img alt="npm" src="https://img.shields.io/npm/v/@koffeine/eslint-config"></a>
+</h1>
 
 Koffeine's ESLint shareable config
 
