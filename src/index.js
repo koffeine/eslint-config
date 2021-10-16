@@ -5,7 +5,7 @@ module.exports = {
 	rules: {
 		// POSSIBLE PROBLEMS
 
-		'array-callback-return': 'error',
+		'array-callback-return': [ 'error', { allowImplicit: false, checkForEach: false } ],
 		'constructor-super': 'off',
 		'for-direction': 'off',
 		'getter-return': [ 'error', { allowImplicit: false } ],
@@ -98,7 +98,7 @@ module.exports = {
 		'new-cap': [ 'error', { newIsCap: true, capIsNew: true, properties: true } ],
 		'no-alert': 'warn',
 		'no-array-constructor': 'error',
-		'no-bitwise': 'error',
+		'no-bitwise': [ 'error', { int32Hint: false } ],
 		'no-caller': 'error',
 		'no-case-declarations': 'error',
 		'no-confusing-arrow': 'off',
@@ -122,7 +122,7 @@ module.exports = {
 		'no-implicit-globals': 'off',
 		'no-implied-eval': 'error',
 		'no-inline-comments': 'off',
-		'no-invalid-this': 'error',
+		'no-invalid-this': [ 'error', { capIsConstructor: true } ],
 		'no-iterator': 'error',
 		'no-label-var': 'error',
 		'no-labels': [ 'error', { allowLoop: false, allowSwitch: false } ],
@@ -130,7 +130,19 @@ module.exports = {
 		'no-lonely-if': 'off',
 		'no-loop-func': 'error',
 		'no-magic-numbers': 'off',
-		'no-mixed-operators': [ 'error', { allowSamePrecedence: true } ],
+		'no-mixed-operators': [
+			'error',
+			{
+				groups: [
+					[ '+', '-', '*', '/', '%', '**' ],
+					[ '&', '|', '^', '~', '<<', '>>', '>>>' ],
+					[ '==', '!=', '===', '!==', '>', '>=', '<', '<=' ],
+					[ '&&', '||' ],
+					[ 'in', 'instanceof' ]
+				],
+				allowSamePrecedence: true
+			}
+		],
 		'no-multi-assign': 'off',
 		'no-multi-str': 'error',
 		'no-negated-condition': 'error',
@@ -203,7 +215,7 @@ module.exports = {
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
 		'prefer-template': 'error',
-		'quote-props': [ 'error', 'as-needed' ],
+		'quote-props': [ 'error', 'as-needed', { keywords: false, unnecessary: true, numbers: false } ],
 		'radix': [ 'error', 'as-needed' ],
 		'require-await': 'error',
 		'require-unicode-regexp': 'error',
@@ -215,7 +227,7 @@ module.exports = {
 		'strict': [ 'error', 'global' ],
 		'symbol-description': 'off',
 		'vars-on-top': 'off',
-		'yoda': [ 'error', 'never' ],
+		'yoda': [ 'error', 'never', { exceptRange: false, onlyEquality: false } ],
 
 		// LAYOUT & FORMATTING
 
@@ -252,11 +264,12 @@ module.exports = {
 				ObjectExpression: 1,
 				ImportDeclaration: 1,
 				flatTernaryExpressions: false,
+				offsetTernaryExpressions: false,
 				ignoreComments: false
 			}
 		],
 		'jsx-quotes': [ 'error', 'prefer-double' ],
-		'key-spacing': [ 'error', { mode: 'minimum' } ],
+		'key-spacing': [ 'error', { beforeColon: false, afterColon: true, mode: 'minimum' } ],
 		'keyword-spacing': [ 'error', { before: true, after: true } ],
 		'line-comment-position': 'off',
 		'linebreak-style': [ 'error', 'unix' ],
@@ -274,7 +287,8 @@ module.exports = {
 				allowArrayStart: true,
 				allowArrayEnd: true,
 				allowClassStart: true,
-				allowClassEnd: true
+				allowClassEnd: true,
+				applyDefaultIgnorePatterns: true
 			}
 		],
 		'lines-between-class-members': [ 'error', 'always', { exceptAfterSingleLine: false } ],
@@ -356,7 +370,7 @@ module.exports = {
 		],
 		'quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: false } ],
 		'rest-spread-spacing': [ 'error', 'never' ],
-		'semi': [ 'error', 'always' ],
+		'semi': [ 'error', 'always', { omitLastInOneLineBlock: false } ],
 		'semi-spacing': [ 'error', { before: false, after: true } ],
 		'semi-style': [ 'error', 'last' ],
 		'space-before-blocks': [ 'error', 'always' ],
