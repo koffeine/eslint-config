@@ -162,7 +162,16 @@ module.exports = {
 		'no-throw-literal': 'off',
 		'no-undef-init': 'error',
 		'no-undefined': 'error',
-		'no-underscore-dangle': [ 'error', { allowAfterThis: false, allowAfterSuper: false, allowAfterThisConstructor: false, enforceInMethodNames: true, allowFunctionParams: false } ],
+		'no-underscore-dangle': [
+			'error',
+			{
+				allowAfterThis: false,
+				allowAfterSuper: false,
+				allowAfterThisConstructor: false,
+				enforceInMethodNames: true,
+				allowFunctionParams: false
+			}
+		],
 		'no-unneeded-ternary': [ 'error', { defaultAssignment: false } ],
 		'no-unused-expressions': [ 'error', { allowShortCircuit: false, allowTernary: false, allowTaggedTemplates: false, enforceForJSX: false } ],
 		'no-unused-labels': 'error',
@@ -228,20 +237,66 @@ module.exports = {
 		'function-paren-newline': [ 'error', 'consistent' ],
 		'generator-star-spacing': [ 'error', { before: true, after: false } ],
 		'implicit-arrow-linebreak': 'off',
-		'indent': [ 'error', 'tab', { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1, MemberExpression: 1, FunctionDeclaration: { parameters: 1, body: 1 }, FunctionExpression: { parameters: 1, body: 1 }, CallExpression: { arguments: 1 }, ArrayExpression: 1, ObjectExpression: 1, ImportDeclaration: 1, flatTernaryExpressions: false, ignoreComments: false } ],
+		'indent': [
+			'error',
+			'tab',
+			{
+				SwitchCase: 1,
+				VariableDeclarator: 1,
+				outerIIFEBody: 1,
+				MemberExpression: 1,
+				FunctionDeclaration: { parameters: 1, body: 1 },
+				FunctionExpression: { parameters: 1, body: 1 },
+				CallExpression: { arguments: 1 },
+				ArrayExpression: 1,
+				ObjectExpression: 1,
+				ImportDeclaration: 1,
+				flatTernaryExpressions: false,
+				ignoreComments: false
+			}
+		],
 		'jsx-quotes': [ 'error', 'prefer-double' ],
 		'key-spacing': [ 'error', { mode: 'minimum' } ],
 		'keyword-spacing': [ 'error', { before: true, after: true } ],
 		'line-comment-position': 'off',
 		'linebreak-style': [ 'error', 'unix' ],
-		'lines-around-comment': [ 'error', { beforeBlockComment: true, afterBlockComment: false, beforeLineComment: false, afterLineComment: false, allowBlockStart: true, allowBlockEnd: true, allowObjectStart: true, allowObjectEnd: true, allowArrayStart: true, allowArrayEnd: true, allowClassStart: true, allowClassEnd: true } ],
+		'lines-around-comment': [
+			'error',
+			{
+				beforeBlockComment: true,
+				afterBlockComment: false,
+				beforeLineComment: false,
+				afterLineComment: false,
+				allowBlockStart: true,
+				allowBlockEnd: true,
+				allowObjectStart: true,
+				allowObjectEnd: true,
+				allowArrayStart: true,
+				allowArrayEnd: true,
+				allowClassStart: true,
+				allowClassEnd: true
+			}
+		],
 		'lines-between-class-members': [ 'error', 'always', { exceptAfterSingleLine: false } ],
 		'max-len': 'off',
 		'max-statements-per-line': 'off',
 		'multiline-ternary': 'off',
 		'new-parens': [ 'error', 'always' ],
 		'newline-per-chained-call': 'off',
-		'no-extra-parens': [ 'error', 'all', { conditionalAssign: true, returnAssign: true, nestedBinaryExpressions: false, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true, enforceForNewInMemberExpressions: false, enforceForFunctionPrototypeMethods: false } ],
+		'no-extra-parens': [
+			'error',
+			'all',
+			{
+				conditionalAssign: true,
+				returnAssign: true,
+				nestedBinaryExpressions: false,
+				ignoreJSX: 'none',
+				enforceForArrowConditionals: true,
+				enforceForSequenceExpressions: true,
+				enforceForNewInMemberExpressions: false,
+				enforceForFunctionPrototypeMethods: false
+			}
+		],
 		'no-mixed-spaces-and-tabs': 'error',
 		'no-multi-spaces': [ 'error', { ignoreEOLComments: false, exceptions: { Property: true, VariableDeclarator: true, ImportDeclaration: true } } ],
 		'no-multiple-empty-lines': [ 'error', { max: 2 } ],
