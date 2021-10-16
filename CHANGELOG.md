@@ -8,6 +8,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Enabled array-bracket-newline rule with `'consistent'`
+- Enabled arrow-body-style rule with `'as-needed', { requireReturnForObjectLiteral: false }`
+- Updated brace-style rule with `'1tbs', { allowSingleLine: false }`
+- Updated comma-dangle rule with `'only-multiline'`
+- Enabled constructor-super rule
+- Updated default-case rule with `{ commentPattern: '/^no default$/iu' }`
+- Enabled for-direction rule
+- Enabled func-name-matching rule with `'always', { considerPropertyDescriptor: true, includeCommonJSModuleExports: false }`
+- Enabled function-call-argument-newline rule with `'consistent'`
+- Updated lines-around-comment rule with `{ beforeBlockComment: true, afterBlockComment: false, beforeLineComment: true, afterLineComment: false, allowBlockStart: true, allowBlockEnd: false, allowObjectStart: true, allowObjectEnd: false, allowArrayStart: true, allowArrayEnd: false, allowClassStart: true, allowClassEnd: false, applyDefaultIgnorePatterns: true }`
+- Enabled no-cond-assign rule with `'except-parens'`
+- Updated no-extra-parens rule with `'all', { conditionalAssign: false, returnAssign: true, nestedBinaryExpressions: false, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true, enforceForNewInMemberExpressions: false, enforceForFunctionPrototypeMethods: false }`
+- Updated no-fallthrough rule with `{ commentPattern: 'break[\\s\\w]*omitted' }`
+- Enabled no-floating-decimal rule
+- Updated no-irregular-whitespace rule with `{ skipStrings: false, skipComments: false, skipRegExps: false, skipTemplates: false }`
+- Enabled no-lonely-if rule
+- Updated no-multi-spaces rule with `{ ignoreEOLComments: false, exceptions: { Property: true, BinaryExpression: false, VariableDeclarator: true, ImportDeclaration: false } }`
+- Updated no-multiple-empty-lines rule with `{ max: 2, maxEOF: 1, maxBOF: 0 }`
+- Enabled no-prototype-builtins rule
+- Enabled no-return-assign rule with `'always'`
+- Updated no-shadow rule with `{ builtinGlobals: true, hoist: 'all' }`
+- Enabled no-throw-literal rule
+- Updated no-unneeded-ternary rule with `{ defaultAssignment: true }`
+- Updated no-unused-vars rule with `{ vars: 'all', args: 'all', ignoreRestSiblings: false, caughtErrors: 'all' }`
+- Updated no-useless-computed-key rule with `{ enforceForClassMembers: true }`
+- Enabled object-curly-newline rule with `{ consistent: true }`
+- Enabled object-shorthand rule with `'always', { avoidQuotes: false, ignoreConstructors: false, avoidExplicitReturnArrows: true }`
+- Updated prefer-arrow-callback rule with `{ allowNamedFunctions: false, allowUnboundThis: false }`
+- Enabled prefer-const rule with `{ destructuring: 'all', ignoreReadBeforeAssign: false }`
+- Enabled prefer-object-spread rule
+- Updated space-before-function-paren rule with `{ anonymous: 'never', named: 'never', asyncArrow: 'always' }`
+
 
 ## [22.0.1] - 2021-10-14
 
