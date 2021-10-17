@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [23.2.0] - 2021-10-17
+
 ### Changed
 
 - Updated no-shadow rule with `{ builtinGlobals: false, hoist: 'all' }`
