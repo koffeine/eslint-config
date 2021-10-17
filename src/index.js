@@ -168,7 +168,7 @@ module.exports = {
 		'no-return-await': 'error',
 		'no-script-url': 'error',
 		'no-sequences': [ 'error', { allowInParentheses: false } ],
-		'no-shadow': [ 'error', { builtinGlobals: true, hoist: 'all' } ],
+		'no-shadow': [ 'error', { builtinGlobals: false, hoist: 'all' } ],
 		'no-shadow-restricted-names': 'error',
 		'no-ternary': 'off',
 		'no-throw-literal': 'error',
