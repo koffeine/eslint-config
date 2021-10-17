@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated lines-around-comment rule with `{ beforeBlockComment: true, afterBlockComment: false, beforeLineComment: false, afterLineComment: false, allowBlockStart: true, allowBlockEnd: false, allowObjectStart: true, allowObjectEnd: false, allowArrayStart: true, allowArrayEnd: false, allowClassStart: true, allowClassEnd: false, applyDefaultIgnorePatterns: true }`
+
 
 ## [23.0.0] - 2021-10-16
 
