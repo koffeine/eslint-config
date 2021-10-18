@@ -164,7 +164,7 @@ module.exports = {
 		'no-restricted-imports': 'off',
 		'no-restricted-properties': 'off',
 		'no-restricted-syntax': 'off',
-		'no-return-assign': [ 'error', 'always' ],
+		'no-return-assign': 'off',
 		'no-return-await': 'error',
 		'no-script-url': 'error',
 		'no-sequences': [ 'error', { allowInParentheses: false } ],
