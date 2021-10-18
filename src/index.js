@@ -281,13 +281,13 @@ module.exports = {
 				beforeLineComment: false,
 				afterLineComment: false,
 				allowBlockStart: true,
-				allowBlockEnd: false,
+				allowBlockEnd: true,
 				allowObjectStart: true,
-				allowObjectEnd: false,
+				allowObjectEnd: true,
 				allowArrayStart: true,
-				allowArrayEnd: false,
+				allowArrayEnd: true,
 				allowClassStart: true,
-				allowClassEnd: false,
+				allowClassEnd: true,
 				applyDefaultIgnorePatterns: true
 			}
 		],

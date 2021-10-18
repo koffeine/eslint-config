@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Disabled no-return-assign rule
+- Updated lines-around-comment rule with `{ beforeBlockComment: true, afterBlockComment: false, beforeLineComment: false, afterLineComment: false, allowBlockStart: true, allowBlockEnd: true, allowObjectStart: true, allowObjectEnd: true, allowArrayStart: true, allowArrayEnd: true, allowClassStart: true, allowClassEnd: true, applyDefaultIgnorePatterns: true }`
 
 
 ## [23.2.0] - 2021-10-17
