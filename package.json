@@ -13,17 +13,21 @@
   "license": "MIT",
   "author": "Kornél Horváth <kornel.horvath@me.com>",
   "files": [
-    "src"
+    "index.js"
   ],
-  "exports": "./src/index.js",
+  "exports": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/koffeine/eslint-config.git"
   },
   "scripts": {
-    "test": "eslint src test && node test src/index.js"
+    "test": "eslint src test && node test src/index.js",
+    "build": "esbuild --minify --outfile=index.js src/index.js",
+    "prepublishOnly": "npm test && npm run build",
+    "postpublish": "rm index.js"
   },
   "devDependencies": {
+    "esbuild": "^0",
     "eslint": "8.0.1"
   },
   "peerDependencies": {
