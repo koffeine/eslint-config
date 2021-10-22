@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [23.3.2] - 2021-10-22
+
 ### Changed
 
 - Reduced package size
