@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.1.0
+- Enabled no-unused-private-class-members rule
+
 
 ## [23.3.2] - 2021-10-22
 

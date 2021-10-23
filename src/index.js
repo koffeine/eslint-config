@@ -54,6 +54,7 @@ module.exports = {
 		'no-unsafe-finally': 'error',
 		'no-unsafe-negation': [ 'error', { enforceForOrderingRelations: true } ],
 		'no-unsafe-optional-chaining': [ 'error', { disallowArithmeticOperators: true } ],
+		'no-unused-private-class-members': 'error',
 		'no-unused-vars': [ 'error', { vars: 'all', args: 'all', ignoreRestSiblings: false, caughtErrors: 'all' } ],
 		'no-use-before-define': [ 'error', { functions: true, classes: true, variables: true } ],
 		'no-useless-backreference': 'error',
