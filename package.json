@@ -21,12 +21,13 @@
     "url": "git+https://github.com/koffeine/eslint-config.git"
   },
   "scripts": {
-    "test": "eslint src test && node test src/index.js",
+    "test": "eslint src test && node test/index.mjs src/index.js",
     "build": "esbuild --minify --outfile=index.js src/index.js",
     "prepublishOnly": "npm test && npm run build",
     "postpublish": "rm index.js"
   },
   "devDependencies": {
+    "@types/node": "^16",
     "esbuild": "^0",
     "eslint": "8.1.0"
   },

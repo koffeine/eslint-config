@@ -1,5 +1,6 @@
 'use strict';
 
+/** @type {import("eslint").Linter.Config} */
 module.exports = {
 	root: true,
 	extends: './src/index.js',
@@ -11,7 +12,18 @@ module.exports = {
 		es2021: true,
 		node: true
 	},
-	rules: {
-		'quote-props': 'off'
-	}
+	overrides: [
+		{
+			files: 'src/index.js',
+			rules: {
+				'quote-props': 'off'
+			}
+		},
+		{
+			files: '*.mjs',
+			parserOptions: {
+				sourceType: 'module'
+			}
+		}
+	]
 };
