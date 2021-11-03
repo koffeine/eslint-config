@@ -75,7 +75,7 @@ module.exports = {
 		'consistent-return': [ 'error', { treatUndefinedAsUnspecified: true } ],
 		'consistent-this': [ 'error', 'self' ],
 		'curly': [ 'error', 'all' ],
-		'default-case': [ 'error', { commentPattern: '/^no default$/iu' } ],
+		'default-case': 'error',
 		'default-case-last': 'error',
 		'default-param-last': 'error',
 		'dot-notation': [ 'error', { allowKeywords: true } ],
