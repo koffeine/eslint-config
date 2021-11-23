@@ -59,7 +59,7 @@ module.exports = {
 		'no-unused-vars': [ 'error', { vars: 'all', args: 'all', ignoreRestSiblings: false, caughtErrors: 'all' } ],
 		'no-use-before-define': [ 'error', { functions: true, classes: true, variables: true } ],
 		'no-useless-backreference': 'error',
-		'require-atomic-updates': 'off', // https://github.com/eslint/eslint/issues/11899
+		'require-atomic-updates': 'off',
 		'use-isnan': [ 'error', { enforceForSwitchCase: true, enforceForIndexOf: true } ],
 		'valid-typeof': [ 'error', { requireStringLiterals: true } ],
 
