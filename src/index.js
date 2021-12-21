@@ -211,6 +211,7 @@ module.exports = {
 		'prefer-exponentiation-operator': 'error',
 		'prefer-named-capture-group': 'off',
 		'prefer-numeric-literals': 'off',
+		'prefer-object-has-own': 'off', // not yet supported on Safari 15.2 & Samsung Internet 15.0
 		'prefer-object-spread': 'error',
 		'prefer-promise-reject-errors': 'off',
 		'prefer-regex-literals': 'error',
