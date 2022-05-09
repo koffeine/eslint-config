@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.15.0
+- Updated no-underscore-dangle rule with `{ allowAfterThis: false, allowAfterSuper: false, allowAfterThisConstructor: false, enforceInMethodNames: true, enforceInClassFields: true, allowFunctionParams: false }`
+
 
 ## [25.0.0] - 2022-04-25
 

@@ -184,6 +184,7 @@ module.exports = {
 				allowAfterSuper: false,
 				allowAfterThisConstructor: false,
 				enforceInMethodNames: true,
+				enforceInClassFields: true,
 				allowFunctionParams: false
 			}
 		],
