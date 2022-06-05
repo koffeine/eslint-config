@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.17.0
+- Updated no-use-before-define rule with `{ functions: true, classes: true, variables: true, allowNamedExports: false }`
+
 
 ## [26.1.0] - 2022-05-21
 

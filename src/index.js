@@ -58,7 +58,7 @@ module.exports = {
 		'no-unsafe-optional-chaining': [ 'error', { disallowArithmeticOperators: true } ],
 		'no-unused-private-class-members': 'error',
 		'no-unused-vars': [ 'error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false, caughtErrors: 'all' } ],
-		'no-use-before-define': [ 'error', { functions: true, classes: true, variables: true } ],
+		'no-use-before-define': [ 'error', { functions: true, classes: true, variables: true, allowNamedExports: false } ],
 		'no-useless-backreference': 'error',
 		'require-atomic-updates': 'off',
 		'use-isnan': [ 'error', { enforceForSwitchCase: true, enforceForIndexOf: true } ],
