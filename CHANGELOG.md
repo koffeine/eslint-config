@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.23.0
+- Updated no-fallthrough rule with `{ commentPattern: 'break[\\s\\w]*omitted', allowEmptyCase: true }`
+
 
 ## [26.7.0] - 2022-08-19
 

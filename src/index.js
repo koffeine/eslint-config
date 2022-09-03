@@ -30,7 +30,7 @@ module.exports = {
 		'no-empty-character-class': 'error',
 		'no-empty-pattern': 'error',
 		'no-ex-assign': 'error',
-		'no-fallthrough': [ 'error', { commentPattern: 'break[\\s\\w]*omitted' } ],
+		'no-fallthrough': [ 'error', { commentPattern: 'break[\\s\\w]*omitted', allowEmptyCase: true } ],
 		'no-func-assign': 'error',
 		'no-import-assign': 'error',
 		'no-inner-declarations': [ 'error', 'both' ],
