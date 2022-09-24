@@ -90,6 +90,7 @@ module.exports = {
 		'id-length': 'off',
 		'id-match': 'off',
 		'init-declarations': 'off',
+		'logical-assignment-operators': [ 'error', 'always', { enforceForIfStatements: true } ],
 		'max-classes-per-file': 'off',
 		'max-depth': 'off',
 		'max-lines': 'off',

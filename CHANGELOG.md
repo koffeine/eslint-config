@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.24.0
+- Enabled logical-assignment-operators rule with `'always', { enforceForIfStatements: true }`
+
 
 ## [26.8.1] - 2022-09-17
 
