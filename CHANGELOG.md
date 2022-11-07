@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.27.0
+- Enabled no-empty-static-block rule
+- Enabled no-new-native-nonconstructor rule
+
 
 ## [27.2.0] - 2022-10-24
 
