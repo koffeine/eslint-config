@@ -188,6 +188,8 @@ module.exports = {
 				allowAfterThisConstructor: false,
 				enforceInMethodNames: true,
 				enforceInClassFields: true,
+				allowInArrayDestructuring: false,
+				allowInObjectDestructuring: false,
 				allowFunctionParams: false
 			}
 		],
