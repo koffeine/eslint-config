@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [29.0.0] - 2023-01-01
+
 ### Changed
 
 - Updated eslint to 8.31.0
