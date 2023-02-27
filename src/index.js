@@ -298,7 +298,8 @@ module.exports = {
 				allowArrayEnd: true,
 				allowClassStart: true,
 				allowClassEnd: true,
-				applyDefaultIgnorePatterns: true
+				applyDefaultIgnorePatterns: true,
+				afterHashbangComment: false
 			}
 		],
 		'lines-between-class-members': [ 'error', 'always', { exceptAfterSingleLine: false } ],
