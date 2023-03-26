@@ -31,7 +31,7 @@
     "@types/node": "^18",
     "esbuild": "^0",
     "eslint": "8.36.0",
-    "typescript": "^4"
+    "typescript": "^5"
   },
   "peerDependencies": {
     "eslint": "8.36.0"
