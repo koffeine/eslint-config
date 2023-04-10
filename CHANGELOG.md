@@ -13,8 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Transitioned to flat config
 - Updated eslint to 8.38.0
+- Transitioned to flat config
 
 
 ## [29.6.0] - 2023-03-29
