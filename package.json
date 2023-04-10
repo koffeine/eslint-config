@@ -22,7 +22,7 @@
     "url": "git+https://github.com/koffeine/eslint-config.git"
   },
   "scripts": {
-    "test": "eslint src test && tsc -p jsconfig.json && node test/index.js src/index.js",
+    "test": "eslint . && tsc -p jsconfig.json && node test/index.js src/index.js",
     "build": "esbuild --minify --outfile=index.js src/index.js",
     "prepublishOnly": "npm test && npm run build",
     "postpublish": "rm index.js"

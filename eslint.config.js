@@ -3,16 +3,17 @@ import globals from 'globals';
 
 /** @type {import("eslint").Linter.FlatConfig[]} */
 export default [
+	koffeine,
 	{
-		...koffeine,
-		languageOptions: {
-			globals: globals.node
+		files: [ 'src/**/*.js' ],
+		rules: {
+			'quote-props': 'off'
 		}
 	},
 	{
-		files: [ 'src/index.js' ],
-		rules: {
-			'quote-props': 'off'
+		files: [ 'test/**/*.js' ],
+		languageOptions: {
+			globals: globals.node
 		}
 	}
 ];
