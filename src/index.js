@@ -1,8 +1,8 @@
-'use strict';
-
-/** @type {import("eslint").Linter.Config} */
-module.exports = {
-	reportUnusedDisableDirectives: true,
+/** @type {import("eslint").Linter.FlatConfig} */
+export default {
+	linterOptions: {
+		reportUnusedDisableDirectives: true
+	},
 	rules: {
 		// POSSIBLE PROBLEMS
 

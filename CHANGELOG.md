@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Transitioned to flat config
 - Updated eslint to 8.38.0
 
 

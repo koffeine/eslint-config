@@ -1,4 +1,8 @@
-import { Linter, ESLint } from 'eslint';
+import { Linter } from 'eslint';
+import useAtYourOwnRisk from 'eslint/use-at-your-own-risk';
+
+// @ts-ignore
+const FlatESLint = useAtYourOwnRisk.FlatESLint;
 
 const configFile = process.argv[2];
 
@@ -10,8 +14,8 @@ for (const [ name, { meta } ] of new Linter().getRules()) {
 	(meta?.deprecated ? allDeprecatedRules : allValidRules).push(name);
 }
 
-const currentRules = Object.keys((await new ESLint({ useEslintrc: false, overrideConfigFile: configFile })
-	.calculateConfigForFile(configFile)).rules);
+const currentRules = Object.keys((await new FlatESLint({ overrideConfigFile: configFile })
+	.calculateConfigForFile(configFile))?.rules);
 
 
 const missingRules = allValidRules.filter((rule) => !currentRules.includes(rule));

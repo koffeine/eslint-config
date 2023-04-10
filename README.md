@@ -31,12 +31,14 @@ npm install eslint@8.38.0 --save-dev --save-exact
 
 ## Usage
 
-Add the following to your .eslintrc.js file:
+Add the following to your eslint.config.js file:
 
 ```js
-module.exports = {
-    extends: '@koffeine'
-};
+import koffeine from '@koffeine/eslint-config';
+
+export default [
+	koffeine
+];
 ```
 
 ## License
