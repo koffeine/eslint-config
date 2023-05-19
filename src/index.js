@@ -381,7 +381,7 @@ export default {
 		],
 		'quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: false } ],
 		'rest-spread-spacing': [ 'error', 'never' ],
-		'semi': [ 'error', 'always', { omitLastInOneLineBlock: false } ],
+		'semi': [ 'error', 'always', { omitLastInOneLineBlock: false, omitLastInOneLineClassBody: false } ],
 		'semi-spacing': [ 'error', { before: false, after: true } ],
 		'semi-style': [ 'error', 'last' ],
 		'space-before-blocks': [ 'error', 'always' ],

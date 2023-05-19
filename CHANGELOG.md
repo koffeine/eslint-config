@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.40.0
+- Updated semi rule with `'always', { omitLastInOneLineBlock: false, omitLastInOneLineClassBody: false }`
+
 
 ## [30.1.0] - 2023-04-22
 
