@@ -35,7 +35,7 @@ export default {
 		'no-import-assign': 'error',
 		'no-inner-declarations': [ 'error', 'both' ],
 		'no-invalid-regexp': 'error',
-		'no-irregular-whitespace': [ 'error', { skipStrings: false, skipComments: false, skipRegExps: false, skipTemplates: false } ],
+		'no-irregular-whitespace': [ 'error', { skipStrings: false, skipComments: false, skipRegExps: false, skipTemplates: false, skipJSXText: false } ],
 		'no-loss-of-precision': 'error',
 		'no-misleading-character-class': 'error',
 		'no-new-native-nonconstructor': 'error',

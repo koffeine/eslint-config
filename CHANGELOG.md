@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.43.0
+- Updated no-irregular-whitespace rule with `{ skipStrings: false, skipComments: false, skipRegExps: false, skipTemplates: false, skipJSXText: false }`
+
 
 ## [30.3.0] - 2023-06-10
 
