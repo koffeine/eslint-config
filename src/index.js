@@ -315,6 +315,7 @@ export default {
 				conditionalAssign: false,
 				returnAssign: true,
 				nestedBinaryExpressions: false,
+				ternaryOperandBinaryExpressions: true,
 				ignoreJSX: 'none',
 				enforceForArrowConditionals: true,
 				enforceForSequenceExpressions: true,

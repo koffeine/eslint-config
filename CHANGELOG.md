@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.44.0
+- Updated no-extra-parens rule with `'all', { conditionalAssign: false, returnAssign: true, nestedBinaryExpressions: false, ternaryOperandBinaryExpressions: true, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true, enforceForNewInMemberExpressions: false, enforceForFunctionPrototypeMethods: false }`
+
 
 ## [30.4.0] - 2023-06-22
 
