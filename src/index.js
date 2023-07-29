@@ -171,7 +171,6 @@ export default {
 		'no-restricted-properties': 'off',
 		'no-restricted-syntax': 'off',
 		'no-return-assign': 'off',
-		'no-return-await': 'error',
 		'no-script-url': 'error',
 		'no-sequences': [ 'error', { allowInParentheses: false } ],
 		'no-shadow': [ 'error', { builtinGlobals: false, hoist: 'all', ignoreOnInitialization: false } ],
