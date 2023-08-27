@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.48.0
+- Updated no-promise-executor-return rule with `{ allowVoid: false }`
+
 
 ## [30.8.0] - 2023-08-18
 

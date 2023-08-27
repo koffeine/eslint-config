@@ -41,7 +41,7 @@ export default {
 		'no-new-native-nonconstructor': 'error',
 		'no-new-symbol': 'error',
 		'no-obj-calls': 'error',
-		'no-promise-executor-return': 'error',
+		'no-promise-executor-return': [ 'error', { allowVoid: false } ],
 		'no-prototype-builtins': 'error',
 		'no-self-assign': [ 'error', { props: true } ],
 		'no-self-compare': 'error',
