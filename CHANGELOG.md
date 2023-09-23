@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.50.0
+- Replaced no-new-object rule with no-object-constructor
+- Updated array-callback-return rule with `{ allowImplicit: false, checkForEach: false, allowVoid: false }`
+
 
 ## [30.10.0] - 2023-09-15
 

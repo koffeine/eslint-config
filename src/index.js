@@ -6,7 +6,7 @@ export default {
 	rules: {
 		// POSSIBLE PROBLEMS
 
-		'array-callback-return': [ 'error', { allowImplicit: false, checkForEach: false } ],
+		'array-callback-return': [ 'error', { allowImplicit: false, checkForEach: false, allowVoid: false } ],
 		'constructor-super': 'error',
 		'for-direction': 'error',
 		'getter-return': [ 'error', { allowImplicit: false } ],
@@ -155,9 +155,9 @@ export default {
 		'no-nested-ternary': 'error',
 		'no-new': 'error',
 		'no-new-func': 'error',
-		'no-new-object': 'error',
 		'no-new-wrappers': 'error',
 		'no-nonoctal-decimal-escape': 'error',
+		'no-object-constructor': 'error',
 		'no-octal': 'error',
 		'no-octal-escape': 'error',
 		'no-param-reassign': 'off',
