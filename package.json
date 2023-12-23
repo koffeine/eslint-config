@@ -34,11 +34,11 @@
     "@types/eslint": "^8",
     "@types/node": "^20",
     "esbuild": "^0",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "globals": "^13",
     "typescript": "^5"
   },
   "peerDependencies": {
-    "eslint": "8.53.0"
+    "eslint": "8.54.0"
   }
 }
