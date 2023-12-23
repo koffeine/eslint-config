@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.56.0
+- Updated reportUnusedDisableDirectives feature with `error`
+
 
 ## [32.2.0] - 2023-12-23
 
