@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated eslint to 8.54.0
+- Updated @stylistic/eslint-plugin-js to 1.3.2
+- Enabled @stylistic/js/function-call-spacing rule with `'never'`
 
 
 ## [32.0.0] - 2023-12-23

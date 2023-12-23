@@ -244,8 +244,9 @@ export default {
 		'@stylistic/js/computed-property-spacing': [ 'error', 'never', { enforceForClassMembers: true } ],
 		'@stylistic/js/dot-location': [ 'error', 'property' ],
 		'@stylistic/js/eol-last': [ 'error', 'always' ],
-		'@stylistic/js/func-call-spacing': [ 'error', 'never' ],
+		'@stylistic/js/func-call-spacing': [ 'error', 'never' ], // alias of @stylistic/js/function-call-spacing
 		'@stylistic/js/function-call-argument-newline': [ 'error', 'consistent' ],
+		'@stylistic/js/function-call-spacing': [ 'error', 'never' ],
 		'@stylistic/js/function-paren-newline': [ 'error', 'consistent' ],
 		'@stylistic/js/generator-star-spacing': [ 'error', { before: true, after: false } ],
 		'@stylistic/js/implicit-arrow-linebreak': 'off',
