@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [31.0.0] - 2023-12-23
+
 ### Changed
 
 - Enabled prefer-object-has-own rule
