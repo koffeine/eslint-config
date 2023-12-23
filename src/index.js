@@ -330,7 +330,7 @@ export default {
 			}
 		],
 		'@stylistic/js/no-mixed-spaces-and-tabs': 'error',
-		'@stylistic/js/no-multi-spaces': [ 'error', { ignoreEOLComments: false, exceptions: { Property: true, BinaryExpression: false, VariableDeclarator: true, ImportDeclaration: false } } ],
+		'@stylistic/js/no-multi-spaces': [ 'error', { ignoreEOLComments: false, exceptions: { Property: true, BinaryExpression: false, VariableDeclarator: true, ImportDeclaration: false }, includeTabs: true } ],
 		'@stylistic/js/no-multiple-empty-lines': [ 'error', { max: 2, maxEOF: 1, maxBOF: 0 } ],
 		'@stylistic/js/no-tabs': 'off',
 		'@stylistic/js/no-trailing-spaces': [ 'error', { skipBlankLines: false, ignoreComments: false } ],

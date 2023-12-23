@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated eslint to 8.56.0
 - Updated reportUnusedDisableDirectives feature with `error`
+- Updated @stylistic/eslint-plugin-js to 1.5.1
+- Updated @stylistic/js/no-multi-spaces rule with `{ ignoreEOLComments: false, exceptions: { Property: true, BinaryExpression: false, VariableDeclarator: true, ImportDeclaration: false }, includeTabs: true }`
 
 
 ## [32.2.0] - 2023-12-23

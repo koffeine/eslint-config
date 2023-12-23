@@ -28,7 +28,7 @@
     "postpublish": "rm index.js"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin-js": "1.4.1"
+    "@stylistic/eslint-plugin-js": "1.5.1"
   },
   "devDependencies": {
     "@types/eslint": "^8",
