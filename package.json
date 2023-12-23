@@ -27,15 +27,18 @@
     "prepublishOnly": "npm test && npm run build",
     "postpublish": "rm index.js"
   },
+  "dependencies": {
+    "@stylistic/eslint-plugin-js": "1.0.0"
+  },
   "devDependencies": {
     "@types/eslint": "^8",
     "@types/node": "^20",
     "esbuild": "^0",
-    "eslint": "8.52.0",
+    "eslint": "8.53.0",
     "globals": "^13",
     "typescript": "^5"
   },
   "peerDependencies": {
-    "eslint": "8.52.0"
+    "eslint": "8.53.0"
   }
 }

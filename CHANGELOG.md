@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 8.53.0
+- Replaced deprecated formatting rules with @stylistic/eslint-plugin-js
+
 
 ## [31.0.0] - 2023-12-23
 

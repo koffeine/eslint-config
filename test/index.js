@@ -10,12 +10,16 @@ const configFile = process.argv[2];
 /** @type {string[]} */ const allValidRules = [];
 /** @type {string[]} */ const allDeprecatedRules = [];
 
-for (const [ name, { meta } ] of new Linter().getRules()) {
-	(meta?.deprecated ? allDeprecatedRules : allValidRules).push(name);
-}
+new Linter().getRules().forEach((rule, ruleName) =>
+	(rule.meta?.deprecated ? allDeprecatedRules : allValidRules).push(ruleName));
 
-const currentRules = Object.keys((await new FlatESLint({ overrideConfigFile: configFile })
-	.calculateConfigForFile(configFile))?.rules);
+const config = await new FlatESLint({ overrideConfigFile: configFile }).calculateConfigForFile(configFile);
+
+Object.entries(config.plugins).forEach(([ pluginName, plugin ]) =>
+	Object.entries(plugin.rules).forEach(([ ruleName, rule ]) =>
+		(rule.meta?.deprecated ? allDeprecatedRules : allValidRules).push(`${pluginName}/${ruleName}`)));
+
+const currentRules = Object.keys(config.rules);
 
 
 const missingRules = allValidRules.filter((rule) => !currentRules.includes(rule));
