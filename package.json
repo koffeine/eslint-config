@@ -28,14 +28,14 @@
     "postpublish": "rm index.js"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin-js": "1.6.1"
+    "@stylistic/eslint-plugin-js": "1.6.2"
   },
   "devDependencies": {
     "@types/eslint": "^8",
     "@types/node": "^20",
     "esbuild": "^0",
     "eslint": "8.56.0",
-    "globals": "^13",
+    "globals": "^14",
     "typescript": "^5"
   },
   "peerDependencies": {
