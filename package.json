@@ -35,7 +35,7 @@
     "@types/node": "^20",
     "esbuild": "^0",
     "eslint": "8.57.0",
-    "globals": "^14",
+    "globals": "^15",
     "typescript": "^5"
   },
   "peerDependencies": {
