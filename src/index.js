@@ -272,6 +272,7 @@ export default {
 		'@stylistic/js/jsx-quotes': [ 'error', 'prefer-double' ],
 		'@stylistic/js/key-spacing': [ 'error', { beforeColon: false, afterColon: true, mode: 'minimum' } ],
 		'@stylistic/js/keyword-spacing': [ 'error', { before: true, after: true } ],
+		'@stylistic/js/line-comment-position': 'off',
 		'@stylistic/js/linebreak-style': [ 'error', 'unix' ],
 		'@stylistic/js/lines-around-comment': [
 			'error',
@@ -295,6 +296,7 @@ export default {
 		'@stylistic/js/lines-between-class-members': [ 'error', 'always', { exceptAfterSingleLine: false } ],
 		'@stylistic/js/max-len': 'off',
 		'@stylistic/js/max-statements-per-line': 'off',
+		'@stylistic/js/multiline-comment-style': 'off',
 		'@stylistic/js/multiline-ternary': 'off',
 		'@stylistic/js/new-parens': [ 'error', 'always' ],
 		'@stylistic/js/newline-per-chained-call': 'off',
