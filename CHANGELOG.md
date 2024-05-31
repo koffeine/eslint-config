@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 9.0.0
+- Enabled no-useless-assignment rule
+- Updated no-fallthrough rule with `{ commentPattern: 'break[\\s\\w]*omitted', allowEmptyCase: true, reportUnusedFallthroughComment: true }`
+- Updated no-unused-vars rule with `{ vars: 'all', args: 'after-used', ignoreRestSiblings: false, caughtErrors: 'all', ignoreClassWithStaticInitBlock: false, reportUsedIgnorePattern: false }`
+- Disabled no-new-symbol rule
+
 
 ## [33.6.0] - 2024-05-31
 

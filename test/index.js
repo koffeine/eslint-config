@@ -1,8 +1,5 @@
-import { Linter } from 'eslint';
-import useAtYourOwnRisk from 'eslint/use-at-your-own-risk';
-
-// @ts-ignore
-const FlatESLint = useAtYourOwnRisk.FlatESLint;
+import { ESLint } from 'eslint';
+import { builtinRules } from 'eslint/use-at-your-own-risk';
 
 const configFile = process.argv[2];
 
@@ -10,10 +7,10 @@ const configFile = process.argv[2];
 /** @type {string[]} */ const allValidRules = [];
 /** @type {string[]} */ const allDeprecatedRules = [];
 
-new Linter().getRules().forEach((rule, ruleName) =>
+builtinRules.forEach((rule, ruleName) =>
 	(rule.meta?.deprecated ? allDeprecatedRules : allValidRules).push(ruleName));
 
-const config = await new FlatESLint({ overrideConfigFile: configFile }).calculateConfigForFile(configFile);
+const config = await new ESLint({ overrideConfigFile: configFile }).calculateConfigForFile(configFile);
 
 Object.entries(config.plugins).forEach(([ pluginName, plugin ]) =>
 	Object.entries(plugin.rules).forEach(([ ruleName, rule ]) =>

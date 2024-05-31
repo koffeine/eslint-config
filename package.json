@@ -22,7 +22,7 @@
     "url": "git+https://github.com/koffeine/eslint-config.git"
   },
   "scripts": {
-    "test": "eslint . && tsc -p jsconfig.json && node test/index.js src/index.js",
+    "test": "eslint && tsc -p jsconfig.json && node test/index.js src/index.js",
     "build": "esbuild --minify --outfile=index.js src/index.js",
     "prepublishOnly": "npm test && npm run build",
     "postpublish": "rm index.js"
@@ -34,11 +34,11 @@
     "@types/eslint": "^8",
     "@types/node": "^20",
     "esbuild": "^0",
-    "eslint": "8.57.0",
+    "eslint": "9.0.0",
     "globals": "^15",
     "typescript": "^5"
   },
   "peerDependencies": {
-    "eslint": "8.57.0"
+    "eslint": "9.0.0"
   }
 }
