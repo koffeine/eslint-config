@@ -42,7 +42,7 @@ export default {
 		'no-invalid-regexp': 'error',
 		'no-irregular-whitespace': [ 'error', { skipStrings: false, skipComments: false, skipRegExps: false, skipTemplates: false, skipJSXText: false } ],
 		'no-loss-of-precision': 'error',
-		'no-misleading-character-class': 'error',
+		'no-misleading-character-class': [ 'error', { allowEscape: true } ],
 		'no-new-native-nonconstructor': 'error',
 		'no-obj-calls': 'error',
 		'no-promise-executor-return': [ 'error', { allowVoid: false } ],
@@ -104,7 +104,6 @@ export default {
 		'max-nested-callbacks': 'off',
 		'max-params': 'off',
 		'max-statements': 'off',
-		'multiline-comment-style': 'off',
 		'new-cap': [ 'error', { newIsCap: true, capIsNew: true, properties: true } ],
 		'no-alert': 'warn',
 		'no-array-constructor': 'error',
@@ -123,7 +122,7 @@ export default {
 		'no-eval': [ 'error', { allowIndirect: false } ],
 		'no-extend-native': 'error',
 		'no-extra-bind': 'error',
-		'no-extra-boolean-cast': [ 'error', { enforceForLogicalOperands: true } ],
+		'no-extra-boolean-cast': [ 'error', { enforceForInnerExpressions: true } ],
 		'no-extra-label': 'error',
 		'no-global-assign': 'error',
 		'no-implicit-coercion': [ 'error', { boolean: true, number: true, string: true, disallowTemplateShorthand: true } ],
@@ -226,7 +225,6 @@ export default {
 
 		// LAYOUT & FORMATTING
 
-		'line-comment-position': 'off',
 		'unicode-bom': [ 'error', 'never' ],
 
 		// STYLISTIC

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 9.3.0
+- Updated no-extra-boolean-cast rule with `{ enforceForInnerExpressions: true }`
+- Updated no-misleading-character-class rule with `{ allowEscape: true }`
+
 
 ## [34.5.0] - 2024-05-31
 
