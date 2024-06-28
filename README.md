@@ -26,7 +26,7 @@ npm info @koffeine/eslint-config peerDependencies
 For example:
 
 ```sh
-npm install eslint@9.4.0 --save-dev --save-exact
+npm install eslint@9.5.0 --save-dev --save-exact
 ```
 
 ## Usage
