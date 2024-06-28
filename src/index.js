@@ -388,7 +388,7 @@ export default {
 			{ prev: 'while', next: '*', blankLine: 'always' }
 		],
 		'@stylistic/js/quote-props': [ 'error', 'as-needed', { keywords: false, unnecessary: true, numbers: false } ],
-		'@stylistic/js/quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: false } ],
+		'@stylistic/js/quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: false, ignoreStringLiterals: false } ],
 		'@stylistic/js/rest-spread-spacing': [ 'error', 'never' ],
 		'@stylistic/js/semi': [ 'error', 'always', { omitLastInOneLineBlock: false, omitLastInOneLineClassBody: false } ],
 		'@stylistic/js/semi-spacing': [ 'error', { before: false, after: true } ],
