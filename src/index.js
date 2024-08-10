@@ -1,6 +1,6 @@
 import stylisticJs from '@stylistic/eslint-plugin-js';
 
-/** @type {import('eslint').Linter.FlatConfig} */
+/** @type {import('eslint').Linter.Config} */
 export default {
 	linterOptions: {
 		reportUnusedDisableDirectives: 'error'
