@@ -264,7 +264,8 @@ export default {
 				ImportDeclaration: 1,
 				flatTernaryExpressions: false,
 				offsetTernaryExpressions: false,
-				ignoreComments: false
+				ignoreComments: false,
+				tabLength: 4
 			}
 		],
 		'@stylistic/js/jsx-quotes': [ 'error', 'prefer-double' ],
