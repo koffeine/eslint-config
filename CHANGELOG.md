@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 9.10.0
+- Updated require-unicode-regexp rule with `{ requireFlag: 'v' }`
+
 
 ## [35.20.0] - 2024-09-06
 

@@ -213,7 +213,7 @@ export default {
 		'prefer-template': 'error',
 		'radix': [ 'error', 'as-needed' ],
 		'require-await': 'error',
-		'require-unicode-regexp': 'error',
+		'require-unicode-regexp': [ 'error', { requireFlag: 'v' } ],
 		'require-yield': 'error',
 		'sort-imports': 'off',
 		'sort-keys': 'off',
