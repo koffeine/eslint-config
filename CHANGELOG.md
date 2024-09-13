@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [37.0.0] - 2024-09-13
+
 ### Changed
 
 - Updated @stylistic/eslint-plugin-js to 2.8.0
