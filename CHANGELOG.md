@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated @stylistic/eslint-plugin-js to 2.10.0
+- Updated @stylistic/js/padding-line-between-statements rule with `{ prev: '*', next: 'block', blankLine: 'always' }, { prev: 'block', next: '*', blankLine: 'always' }, { prev: '*', next: 'block-like', blankLine: 'always' }, { prev: 'block-like', next: '*', blankLine: 'always' }, { prev: '*', next: 'class', blankLine: 'always' }, { prev: 'class', next: '*', blankLine: 'always' }, { prev: '*', next: 'do', blankLine: 'always' }, { prev: 'do', next: '*', blankLine: 'always' }, { prev: '*', next: 'for', blankLine: 'always' }, { prev: 'for', next: '*', blankLine: 'always' }, { prev: '*', next: 'function', blankLine: 'always' }, { prev: 'function', next: '*', blankLine: 'always' }, { prev: '*', next: 'if', blankLine: 'always' }, { prev: 'if', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-block-like', blankLine: 'always' }, { prev: 'multiline-block-like', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-const', blankLine: 'always' }, { prev: 'multiline-const', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-let', blankLine: 'always' }, { prev: 'multiline-let', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-var', blankLine: 'always' }, { prev: 'multiline-var', next: '*', blankLine: 'always' }, { prev: '*', next: 'switch', blankLine: 'always' }, { prev: 'switch', next: '*', blankLine: 'always' }, { prev: '*', next: 'try', blankLine: 'always' }, { prev: 'try', next: '*', blankLine: 'always' }, { prev: '*', next: 'while', blankLine: 'always' }, { prev: 'while', next: '*', blankLine: 'always' }, { prev: '*', next: 'multiline-export', blankLine: 'always' }, { prev: 'multiline-export', next: '*', blankLine: 'always' }`
+
 
 ## [37.5.0] - 2024-10-25
 

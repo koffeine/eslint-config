@@ -386,7 +386,10 @@ export default {
 			{ prev: 'try', next: '*', blankLine: 'always' },
 
 			{ prev: '*', next: 'while', blankLine: 'always' },
-			{ prev: 'while', next: '*', blankLine: 'always' }
+			{ prev: 'while', next: '*', blankLine: 'always' },
+
+			{ prev: '*', next: 'multiline-export', blankLine: 'always' },
+			{ prev: 'multiline-export', next: '*', blankLine: 'always' }
 		],
 		'@stylistic/js/quote-props': [ 'error', 'as-needed', { keywords: false, unnecessary: true, numbers: false } ],
 		'@stylistic/js/quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: false, ignoreStringLiterals: false } ],
