@@ -33,11 +33,11 @@
   "devDependencies": {
     "@types/node": "22.2.0",
     "esbuild": "^0",
-    "eslint": "9.15.0",
+    "eslint": "9.16.0",
     "globals": "^15",
     "typescript": "^5"
   },
   "peerDependencies": {
-    "eslint": "9.15.0"
+    "eslint": "9.16.0"
   }
 }
