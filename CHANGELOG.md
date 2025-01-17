@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated @stylistic/eslint-plugin-js to 2.13.0
+- Updated @stylistic/js/no-extra-parens rule with `'all', { conditionalAssign: false, returnAssign: true, nestedBinaryExpressions: false, ternaryOperandBinaryExpressions: true, ignoreJSX: 'none', enforceForArrowConditionals: true, enforceForSequenceExpressions: true, enforceForNewInMemberExpressions: false, enforceForFunctionPrototypeMethods: false, nestedConditionalExpressions: false }`
+
 
 ## [39.0.0] - 2025-01-17
 

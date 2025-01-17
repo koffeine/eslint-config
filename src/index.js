@@ -312,7 +312,8 @@ export default {
 				enforceForArrowConditionals: true,
 				enforceForSequenceExpressions: true,
 				enforceForNewInMemberExpressions: false,
-				enforceForFunctionPrototypeMethods: false
+				enforceForFunctionPrototypeMethods: false,
+				nestedConditionalExpressions: false
 			}
 		],
 		'@stylistic/js/no-extra-semi': 'error',
