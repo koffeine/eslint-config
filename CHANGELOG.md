@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 9.26.0
+- Updated no-shadow-restricted-names rule with `{ reportGlobalThis: true }`
+- Updated no-unused-expressions rule with `{ allowShortCircuit: false, allowTernary: false, allowTaggedTemplates: false, enforceForJSX: false, ignoreDirectives: false }`
+
 
 ## [40.15.0] - 2025-04-22
 

@@ -163,7 +163,7 @@ export default {
 		'no-script-url': 'error',
 		'no-sequences': [ 'error', { allowInParentheses: false } ],
 		'no-shadow': [ 'error', { builtinGlobals: false, hoist: 'all', ignoreOnInitialization: false } ],
-		'no-shadow-restricted-names': 'error',
+		'no-shadow-restricted-names': [ 'error', { reportGlobalThis: true } ],
 		'no-ternary': 'off',
 		'no-throw-literal': 'error',
 		'no-undef-init': 'error',
@@ -182,7 +182,7 @@ export default {
 			}
 		],
 		'no-unneeded-ternary': [ 'error', { defaultAssignment: true } ],
-		'no-unused-expressions': [ 'error', { allowShortCircuit: false, allowTernary: false, allowTaggedTemplates: false, enforceForJSX: false } ],
+		'no-unused-expressions': [ 'error', { allowShortCircuit: false, allowTernary: false, allowTaggedTemplates: false, enforceForJSX: false, ignoreDirectives: false } ],
 		'no-unused-labels': 'error',
 		'no-useless-call': 'error',
 		'no-useless-catch': 'error',
