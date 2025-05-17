@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 9.27.0
+- Enabled no-unassigned-vars rule
+
 
 ## [41.0.0] - 2025-05-03
 
