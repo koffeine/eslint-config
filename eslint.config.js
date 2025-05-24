@@ -7,7 +7,7 @@ export default [
 	{
 		files: [ 'src/**/*.js' ],
 		rules: {
-			'@stylistic/js/quote-props': 'off'
+			'@stylistic/quote-props': 'off'
 		}
 	},
 	{
