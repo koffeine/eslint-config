@@ -245,7 +245,6 @@ export default {
 		'@stylistic/curly-newline': 'off',
 		'@stylistic/dot-location': [ 'error', 'property' ],
 		'@stylistic/eol-last': [ 'error', 'always' ],
-		'@stylistic/func-call-spacing': [ 'error', 'never' ], // alias of @stylistic/function-call-spacing
 		'@stylistic/function-call-argument-newline': [ 'error', 'consistent' ],
 		'@stylistic/function-call-spacing': [ 'error', 'never' ],
 		'@stylistic/function-paren-newline': [ 'error', 'consistent' ],
