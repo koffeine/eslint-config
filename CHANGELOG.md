@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated eslint to 9.30.0
+- Updated no-duplicate-imports rule with `{ includeExports: true, allowSeparateTypeImports: false }`
+
 
 ## [43.4.0] - 2025-06-27
 
