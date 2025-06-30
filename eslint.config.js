@@ -1,5 +1,6 @@
 import koffeine from './src/index.js';
 import globals from 'globals';
+import typescriptParser from '@typescript-eslint/parser';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -14,6 +15,13 @@ export default [
 		files: [ 'test/**/*.js' ],
 		languageOptions: {
 			globals: globals.node
+		}
+	},
+	{
+		files: [ 'index.d.ts' ],
+		languageOptions: {
+			globals: globals.browser,
+			parser: typescriptParser
 		}
 	}
 ];
