@@ -4,7 +4,7 @@ import typescriptParser from '@typescript-eslint/parser';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-	koffeine,
+	...koffeine,
 	{
 		files: [ 'src/**/*.js' ],
 		rules: {

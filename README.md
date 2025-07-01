@@ -37,7 +37,7 @@ Add the following to your eslint.config.js file:
 import koffeine from '@koffeine/eslint-config';
 
 export default [
-    koffeine
+    ...koffeine
 ];
 ```
 

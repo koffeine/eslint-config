@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Changed export to a config array instead of a config object
+
 
 ## [43.6.1] - 2025-07-01
 
