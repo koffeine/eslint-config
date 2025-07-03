@@ -12,6 +12,10 @@
 	},
 	"license": "MIT",
 	"author": "Kornél Horváth <kornel.horvath@me.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/koffeine/eslint-config.git"
+	},
 	"files": [
 		"index.js",
 		"index.d.ts"
@@ -23,10 +27,6 @@
 		}
 	},
 	"type": "module",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/koffeine/eslint-config.git"
-	},
 	"scripts": {
 		"test": "eslint && tsc -p jsconfig.json && node test/index.js src/index.js",
 		"build": "esbuild --minify --outfile=index.js src/index.js",
