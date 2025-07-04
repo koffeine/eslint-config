@@ -41,11 +41,11 @@
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
 		"esbuild": "^0",
-		"eslint": "9.30.0",
+		"eslint": "9.30.1",
 		"globals": "^16",
 		"typescript": "^5"
 	},
 	"peerDependencies": {
-		"eslint": "9.30.0"
+		"eslint": "9.30.1"
 	}
 }
