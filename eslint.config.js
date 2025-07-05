@@ -6,21 +6,19 @@ import typescriptParser from '@typescript-eslint/parser';
 export default [
 	...koffeine,
 	{
-		files: [ 'src/**/*.js' ],
-		rules: {
-			'@stylistic/quote-props': 'off'
-		}
-	},
-	{
-		files: [ 'test/**/*.js' ],
 		languageOptions: {
 			globals: globals.node
 		}
 	},
 	{
-		files: [ 'index.d.ts' ],
+		files: [ 'src/**/*' ],
+		rules: {
+			'@stylistic/quote-props': 'off'
+		}
+	},
+	{
+		files: [ '**/*.ts' ],
 		languageOptions: {
-			globals: globals.browser,
 			parser: typescriptParser
 		}
 	}
