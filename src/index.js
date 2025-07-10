@@ -299,25 +299,7 @@ export default [
 			'@stylistic/keyword-spacing': [ 'error', { before: true, after: true } ],
 			'@stylistic/line-comment-position': 'off',
 			'@stylistic/linebreak-style': [ 'error', 'unix' ],
-			'@stylistic/lines-around-comment': [
-				'error',
-				{
-					beforeBlockComment: true,
-					afterBlockComment: false,
-					beforeLineComment: false,
-					afterLineComment: false,
-					allowBlockStart: true,
-					allowBlockEnd: true,
-					allowObjectStart: true,
-					allowObjectEnd: true,
-					allowArrayStart: true,
-					allowArrayEnd: true,
-					allowClassStart: true,
-					allowClassEnd: true,
-					applyDefaultIgnorePatterns: true,
-					afterHashbangComment: false
-				}
-			],
+			'@stylistic/lines-around-comment': 'off',
 			'@stylistic/lines-between-class-members': [ 'error', 'always', { exceptAfterSingleLine: false } ],
 			'@stylistic/max-len': 'off',
 			'@stylistic/max-statements-per-line': 'off',
