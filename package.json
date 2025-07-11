@@ -28,7 +28,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"test": "eslint && tsc -p jsconfig.json && node test/index.js src/index.js",
+		"test": "eslint && tsc -p jsconfig.json && node test",
 		"prepublishOnly": "npm test"
 	},
 	"dependencies": {

@@ -1,8 +1,6 @@
 import { ESLint } from 'eslint';
 import { builtinRules } from 'eslint/use-at-your-own-risk';
-
-const configFile = process.argv[2];
-
+import overrideConfig from '../src/index.js';
 
 /** @type {string[]} */ const allValidRules = [];
 /** @type {string[]} */ const allDeprecatedRules = [];
@@ -10,7 +8,7 @@ const configFile = process.argv[2];
 builtinRules.forEach((rule, ruleName) =>
 	(rule.meta?.deprecated ? allDeprecatedRules : allValidRules).push(ruleName));
 
-const config = await new ESLint({ overrideConfigFile: configFile }).calculateConfigForFile(configFile);
+const config = await new ESLint({ overrideConfigFile: true, overrideConfig }).calculateConfigForFile('.js');
 
 Object.entries(config.plugins).forEach(([ pluginName, plugin ]) =>
 	Object.entries(plugin.rules).forEach(([ ruleName, rule ]) =>
