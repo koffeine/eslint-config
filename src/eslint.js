@@ -35,7 +35,7 @@ export default {
 		'no-fallthrough': [ 'error', { commentPattern: 'break[\\s\\w]*omitted', allowEmptyCase: true, reportUnusedFallthroughComment: true } ],
 		'no-func-assign': 'error',
 		'no-import-assign': 'error',
-		'no-inner-declarations': [ 'error', 'both' ],
+		'no-inner-declarations': [ 'error', 'both', { blockScopedFunctions: 'allow' } ],
 		'no-invalid-regexp': 'error',
 		'no-irregular-whitespace': [ 'error', { skipStrings: false, skipComments: false, skipRegExps: false, skipTemplates: false, skipJSXText: false } ],
 		'no-loss-of-precision': 'error',
