@@ -7,26 +7,8 @@ Koffeine's ESLint shareable config
 
 ## Installation
 
-Use option `--save-exact` for npm install to make sure that ESLint and config rules match.
-
-__Config__
-
 ```sh
-npm install @koffeine/eslint-config --save-dev --save-exact
-```
-
-__ESLint__
-
-Find out the matching version:
-
-```sh
-npm view @koffeine/eslint-config peerDependencies.eslint
-```
-
-Install the matching version:
-
-```sh
-npm install eslint@9.30.1 --save-dev --save-exact
+npm install --save-dev @koffeine/eslint-config eslint
 ```
 
 ## Usage
