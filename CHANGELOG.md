@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated @stylistic/eslint-plugin to 5.2.0
+- Updated @stylistic/quotes rule with `'single', { avoidEscape: true, allowTemplateLiterals: 'never', ignoreStringLiterals: false }`
+
 
 ## [44.4.0] - 2025-07-12
 

@@ -174,7 +174,7 @@ export default {
 			{ prev: 'multiline-export', next: '*', blankLine: 'always' }
 		],
 		'@stylistic/quote-props': [ 'error', 'as-needed', { keywords: false, unnecessary: true, numbers: false } ],
-		'@stylistic/quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: false, ignoreStringLiterals: false } ],
+		'@stylistic/quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: 'never', ignoreStringLiterals: false } ],
 		'@stylistic/rest-spread-spacing': [ 'error', 'never' ],
 		'@stylistic/semi': [ 'error', 'always', { omitLastInOneLineBlock: false, omitLastInOneLineClassBody: false } ],
 		'@stylistic/semi-spacing': [ 'error', { before: false, after: true } ],
