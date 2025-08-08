@@ -32,7 +32,7 @@
 		"prepublishOnly": "npm test"
 	},
 	"dependencies": {
-		"@stylistic/eslint-plugin": "5.2.2"
+		"@stylistic/eslint-plugin": "5.2.3"
 	},
 	"devDependencies": {
 		"@types/node": "^22",
