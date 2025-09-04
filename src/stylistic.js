@@ -34,14 +34,16 @@ export default {
 				VariableDeclarator: 1,
 				outerIIFEBody: 1,
 				MemberExpression: 1,
-				FunctionDeclaration: { parameters: 1, body: 1 },
-				FunctionExpression: { parameters: 1, body: 1 },
+				FunctionDeclaration: { parameters: 1, body: 1, returnType: 1 },
+				FunctionExpression: { parameters: 1, body: 1, returnType: 1 },
+				StaticBlock: { body: 1 },
 				CallExpression: { arguments: 1 },
 				ArrayExpression: 1,
 				ObjectExpression: 1,
 				ImportDeclaration: 1,
 				flatTernaryExpressions: false,
 				offsetTernaryExpressions: false,
+				assignmentOperator: 1,
 				ignoreComments: false,
 				tabLength: 4
 			}
@@ -61,7 +63,6 @@ export default {
 		'@stylistic/jsx-newline': 'off',
 		'@stylistic/jsx-one-expression-per-line': 'off',
 		'@stylistic/jsx-pascal-case': 'off',
-		'@stylistic/jsx-props-no-multi-spaces': 'off',
 		'@stylistic/jsx-quotes': [ 'error', 'prefer-double' ],
 		'@stylistic/jsx-self-closing-comp': 'off',
 		'@stylistic/jsx-sort-props': 'off',
@@ -90,10 +91,9 @@ export default {
 				nestedBinaryExpressions: false,
 				ternaryOperandBinaryExpressions: true,
 				ignoreJSX: 'none',
-				enforceForArrowConditionals: true,
 				enforceForSequenceExpressions: true,
-				enforceForNewInMemberExpressions: false,
 				enforceForFunctionPrototypeMethods: false,
+				allowParensAfterCommentPattern: '@type',
 				nestedConditionalExpressions: false
 			}
 		],
@@ -140,6 +140,13 @@ export default {
 			{ prev: '*', next: 'do', blankLine: 'always' },
 			{ prev: 'do', next: '*', blankLine: 'always' },
 
+			{ prev: '*', next: 'export', blankLine: 'always' },
+			{ prev: 'export', next: '*', blankLine: 'always' },
+			{ prev: 'export', next: 'export', blankLine: 'any' },
+
+			{ prev: '*', next: 'multiline-expression', blankLine: 'always' },
+			{ prev: 'multiline-expression', next: '*', blankLine: 'always' },
+
 			{ prev: '*', next: 'for', blankLine: 'always' },
 			{ prev: 'for', next: '*', blankLine: 'always' },
 
@@ -149,29 +156,24 @@ export default {
 			{ prev: '*', next: 'if', blankLine: 'always' },
 			{ prev: 'if', next: '*', blankLine: 'always' },
 
-			{ prev: '*', next: 'multiline-block-like', blankLine: 'always' },
-			{ prev: 'multiline-block-like', next: '*', blankLine: 'always' },
+			{ prev: '*', next: 'import', blankLine: 'always' },
+			{ prev: 'import', next: '*', blankLine: 'always' },
+			{ prev: 'import', next: 'import', blankLine: 'any' },
 
-			{ prev: '*', next: 'multiline-const', blankLine: 'always' },
-			{ prev: 'multiline-const', next: '*', blankLine: 'always' },
-
-			{ prev: '*', next: 'multiline-let', blankLine: 'always' },
-			{ prev: 'multiline-let', next: '*', blankLine: 'always' },
-
-			{ prev: '*', next: 'multiline-var', blankLine: 'always' },
-			{ prev: 'multiline-var', next: '*', blankLine: 'always' },
+			{ prev: '*', next: 'return', blankLine: 'always' },
+			{ prev: 'return', next: '*', blankLine: 'always' },
 
 			{ prev: '*', next: 'switch', blankLine: 'always' },
 			{ prev: 'switch', next: '*', blankLine: 'always' },
+
+			{ prev: '*', next: 'throw', blankLine: 'always' },
+			{ prev: 'throw', next: '*', blankLine: 'always' },
 
 			{ prev: '*', next: 'try', blankLine: 'always' },
 			{ prev: 'try', next: '*', blankLine: 'always' },
 
 			{ prev: '*', next: 'while', blankLine: 'always' },
-			{ prev: 'while', next: '*', blankLine: 'always' },
-
-			{ prev: '*', next: 'multiline-export', blankLine: 'always' },
-			{ prev: 'multiline-export', next: '*', blankLine: 'always' }
+			{ prev: 'while', next: '*', blankLine: 'always' }
 		],
 		'@stylistic/quote-props': [ 'error', 'as-needed', { keywords: false, unnecessary: true, numbers: false } ],
 		'@stylistic/quotes': [ 'error', 'single', { avoidEscape: true, allowTemplateLiterals: 'never', ignoreStringLiterals: false } ],

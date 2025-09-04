@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated @stylistic/eslint-plugin to 5.3.1
+- Updated @stylistic/indent rule with `'tab', { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1, MemberExpression: 1, FunctionDeclaration: { parameters: 1, body: 1, returnType: 1 }, FunctionExpression: { parameters: 1, body: 1, returnType: 1 }, StaticBlock: { body: 1 }, CallExpression: { arguments: 1 }, ArrayExpression: 1, ObjectExpression: 1, ImportDeclaration: 1, flatTernaryExpressions: false, offsetTernaryExpressions: false, assignmentOperator: 1, ignoreComments: false, tabLength: 4 }`
+- Updated no-extra-parens rule with `'all', { conditionalAssign: false, returnAssign: true, nestedBinaryExpressions: false, ternaryOperandBinaryExpressions: true, ignoreJSX: 'none', enforceForSequenceExpressions: true, enforceForFunctionPrototypeMethods: false, allowParensAfterCommentPattern: '@type', nestedConditionalExpressions: false }`
+- Updated padding-line-between-statements rule with `'error', { prev: '*', next: 'block', blankLine: 'always' }, { prev: 'block', next: '*', blankLine: 'always' }, { prev: '*', next: 'block-like', blankLine: 'always' }, { prev: 'block-like', next: '*', blankLine: 'always' }, { prev: '*', next: 'class', blankLine: 'always' }, { prev: 'class', next: '*', blankLine: 'always' }, { prev: '*', next: 'do', blankLine: 'always' }, { prev: 'do', next: '*', blankLine: 'always' }, { prev: '*', next: 'export', blankLine: 'always' }, { prev: 'export', next: '*', blankLine: 'always' }, { prev: 'export', next: 'export', blankLine: 'any' }, { prev: '*', next: 'multiline-expression', blankLine: 'always' }, { prev: 'multiline-expression', next: '*', blankLine: 'always' }, { prev: '*', next: 'for', blankLine: 'always' }, { prev: 'for', next: '*', blankLine: 'always' }, { prev: '*', next: 'function', blankLine: 'always' }, { prev: 'function', next: '*', blankLine: 'always' }, { prev: '*', next: 'if', blankLine: 'always' }, { prev: 'if', next: '*', blankLine: 'always' }, { prev: '*', next: 'import', blankLine: 'always' }, { prev: 'import', next: '*', blankLine: 'always' }, { prev: 'import', next: 'import', blankLine: 'any' }, { prev: '*', next: 'return', blankLine: 'always' }, { prev: 'return', next: '*', blankLine: 'always' }, { prev: '*', next: 'switch', blankLine: 'always' }, { prev: 'switch', next: '*', blankLine: 'always' }, { prev: '*', next: 'throw', blankLine: 'always' }, { prev: 'throw', next: '*', blankLine: 'always' }, { prev: '*', next: 'try', blankLine: 'always' }, { prev: 'try', next: '*', blankLine: 'always' }, { prev: '*', next: 'while', blankLine: 'always' }, { prev: 'while', next: '*', blankLine: 'always' }`
+- Disabled @stylistic/jsx-props-no-multi-spaces rule
+
 
 ## [44.11.0] - 2025-08-30
 
