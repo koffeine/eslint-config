@@ -209,6 +209,7 @@ export default {
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
 		'prefer-template': 'error',
+		'preserve-caught-error': [ 'error', { requireCatchParameter: false } ],
 		'radix': [ 'error', 'as-needed' ],
 		'require-await': 'error',
 		'require-unicode-regexp': [ 'error', { requireFlag: 'v' } ],
