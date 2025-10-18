@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated @stylistic/eslint-plugin to 5.5.0
+- Updated @stylistic/object-curly-spacing rule with `'always', { arraysInObjects: true, objectsInObjects: true, emptyObjects: 'never' }`
+
 
 ## [46.4.0] - 2025-10-18
 
