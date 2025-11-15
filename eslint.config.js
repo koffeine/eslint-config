@@ -6,6 +6,9 @@ import typescriptParser from '@typescript-eslint/parser';
 export default [
 	...koffeine,
 	{
+		ignores: [ 'tools/' ],
+	},
+	{
 		languageOptions: {
 			globals: globals.node
 		}
