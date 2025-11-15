@@ -210,7 +210,7 @@ export default {
 		'prefer-spread': 'error',
 		'prefer-template': 'error',
 		'preserve-caught-error': [ 'error', { requireCatchParameter: false } ],
-		'radix': [ 'error', 'as-needed' ],
+		'radix': 'off',
 		'require-await': 'error',
 		'require-unicode-regexp': [ 'error', { requireFlag: 'v' } ],
 		'require-yield': 'error',
