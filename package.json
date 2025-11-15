@@ -36,12 +36,15 @@
 		"@types/node": "^24.10.11",
 		"@types/punycode": "^2.1.4",
 		"@typescript-eslint/parser": "^8.54.0",
-		"eslint": "9.39.2",
+		"eslint": "10.0.0",
 		"globals": "^17.3.0",
 		"typescript": "^5.9.3"
 	},
 	"peerDependencies": {
-		"eslint": "^9.35.0"
+		"eslint": "^10.0.0"
+	},
+	"overrides": {
+		"eslint": "$eslint"
 	},
 	"devEngines": {
 		"runtime": {
