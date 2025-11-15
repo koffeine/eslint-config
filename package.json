@@ -33,15 +33,20 @@
 		"@stylistic/eslint-plugin": "5.6.1"
 	},
 	"devDependencies": {
+		"@types/eslint-scope": "^8",
+		"@types/estraverse": "^5",
 		"@types/node": "^24",
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
-		"eslint": "9.39.1",
+		"eslint": "10.0.0-alpha.1",
 		"globals": "^16",
 		"typescript": "^5"
 	},
 	"peerDependencies": {
-		"eslint": "^9.35.0"
+		"eslint": "^10.0.0-alpha.1"
+	},
+	"overrides": {
+		"eslint": "$eslint"
 	},
 	"devEngines": {
 		"runtime": {
