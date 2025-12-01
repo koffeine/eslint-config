@@ -22,9 +22,3 @@ export default [
     ...koffeine
 ];
 ```
-
-## License
-
-Copyright © Kornél Horváth
-
-Licensed under the [MIT License](https://raw.githubusercontent.com/koffeine/eslint-config/master/LICENSE).

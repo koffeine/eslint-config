@@ -7,15 +7,10 @@
 		"eslintconfig"
 	],
 	"homepage": "https://github.com/koffeine/eslint-config",
-	"bugs": {
-		"url": "https://github.com/koffeine/eslint-config/issues"
-	},
+	"bugs": "https://github.com/koffeine/eslint-config/issues",
 	"license": "MIT",
 	"author": "Kornél Horváth <kornel.horvath@me.com>",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/koffeine/eslint-config.git"
-	},
+	"repository": "koffeine/eslint-config",
 	"files": [
 		"src",
 		"index.d.ts"
@@ -44,5 +39,11 @@
 	},
 	"peerDependencies": {
 		"eslint": "^9.35.0"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24"
+		}
 	}
 }
