@@ -10,7 +10,10 @@
 	"bugs": "https://github.com/koffeine/eslint-config/issues",
 	"license": "MIT",
 	"author": "Kornél Horváth <kornel.horvath@me.com>",
-	"repository": "koffeine/eslint-config",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/koffeine/eslint-config.git"
+	},
 	"files": [
 		"src",
 		"index.d.ts"
