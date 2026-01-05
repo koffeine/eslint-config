@@ -37,7 +37,7 @@
 		"@types/punycode": "^2",
 		"@typescript-eslint/parser": "^8",
 		"eslint": "9.39.2",
-		"globals": "^16",
+		"globals": "^17",
 		"typescript": "^5"
 	},
 	"peerDependencies": {
