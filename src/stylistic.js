@@ -66,7 +66,6 @@ export default {
 		'@stylistic/jsx-pascal-case': 'off',
 		'@stylistic/jsx-quotes': [ 'error', 'prefer-double' ],
 		'@stylistic/jsx-self-closing-comp': 'off',
-		'@stylistic/jsx-sort-props': 'off',
 		'@stylistic/jsx-tag-spacing': 'off',
 		'@stylistic/jsx-wrap-multilines': 'off',
 		'@stylistic/key-spacing': [ 'error', { beforeColon: false, afterColon: true, mode: 'minimum' } ],
