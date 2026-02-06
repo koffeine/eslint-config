@@ -33,12 +33,12 @@
 		"@stylistic/eslint-plugin": "5.7.1"
 	},
 	"devDependencies": {
-		"@types/node": "^24",
-		"@types/punycode": "^2",
-		"@typescript-eslint/parser": "^8",
+		"@types/node": "^24.10.12",
+		"@types/punycode": "^2.1.4",
+		"@typescript-eslint/parser": "^8.54.0",
 		"eslint": "9.39.2",
-		"globals": "^17",
-		"typescript": "^5"
+		"globals": "^17.3.0",
+		"typescript": "^5.9.3"
 	},
 	"peerDependencies": {
 		"eslint": "^9.35.0"
