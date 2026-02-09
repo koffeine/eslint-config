@@ -21,6 +21,7 @@ export default {
 		'@stylistic/curly-newline': 'off',
 		'@stylistic/dot-location': [ 'error', 'property' ],
 		'@stylistic/eol-last': [ 'error', 'always' ],
+		'@stylistic/exp-jsx-props-style': 'off',
 		'@stylistic/exp-list-style': 'off',
 		'@stylistic/function-call-argument-newline': [ 'error', 'consistent' ],
 		'@stylistic/function-call-spacing': [ 'error', 'never' ],
