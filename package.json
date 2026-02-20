@@ -36,7 +36,7 @@
 		"@types/node": "^24.10.13",
 		"@types/punycode": "^2.1.4",
 		"@typescript-eslint/parser": "^8.56.0",
-		"eslint": "10.0.0",
+		"eslint": "10.0.1",
 		"globals": "^17.3.0",
 		"typescript": "^5.9.3"
 	},
