@@ -30,7 +30,7 @@
 		"prepublishOnly": "npm test"
 	},
 	"dependencies": {
-		"@stylistic/eslint-plugin": "5.8.0"
+		"@stylistic/eslint-plugin": "5.9.0"
 	},
 	"devDependencies": {
 		"@types/node": "^24.10.13",
