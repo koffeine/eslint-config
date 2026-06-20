@@ -35,9 +35,9 @@
 	"devDependencies": {
 		"@types/node": "^24.13.2",
 		"@types/punycode": "^2.1.4",
-		"@typescript-eslint/parser": "^8.61.0",
+		"@typescript-eslint/parser": "^8.62.0",
 		"eslint": "10.5.0",
-		"globals": "^17.6.0",
+		"globals": "^17.7.0",
 		"typescript": "^6.0.3"
 	},
 	"peerDependencies": {
