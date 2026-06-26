@@ -18,7 +18,7 @@ export default {
 		'no-compare-neg-zero': 'error',
 		'no-cond-assign': [ 'error', 'except-parens' ],
 		'no-const-assign': 'error',
-		'no-constant-binary-expression': 'error',
+		'no-constant-binary-expression': [ 'error', { checkRelationalComparisons: true } ],
 		'no-constant-condition': [ 'error', { checkLoops: false } ],
 		'no-constructor-return': 'error',
 		'no-control-regex': 'error',
