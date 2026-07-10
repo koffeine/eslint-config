@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [49.0.1] - 2026-07-11
+
 ### Fixed
 
 - Fixed eslint version in peerDependencies
