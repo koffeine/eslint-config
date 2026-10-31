@@ -33,11 +33,11 @@
 		"@stylistic/eslint-plugin": "5.10.0"
 	},
 	"devDependencies": {
-		"@types/node": "^24.19.2",
+		"@types/node": "^26.6.6",
 		"@types/punycode": "^2.1.4",
 		"@typescript-eslint/parser": "^8.72.1",
 		"eslint": "10.14.0",
-		"globals": "^17.13.0",
+		"globals": "^17.14.0",
 		"typescript": "^6.0.3"
 	},
 	"peerDependencies": {
@@ -46,7 +46,7 @@
 	"devEngines": {
 		"runtime": {
 			"name": "node",
-			"version": "24"
+			"version": "26"
 		}
 	}
 }
