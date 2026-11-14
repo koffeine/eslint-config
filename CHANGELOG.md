@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated @stylistic/eslint-plugin to 6.0.1
+- Disabled deprecated rules
+- Enabled @stylistic/list-style rule with `{ overrides: { '{}': { singleLine: { spacing: 'always' }, empty: 'never' }, '[]': { singleLine: { spacing: 'always' }, empty: 'never' }, '()': { singleLine: { spacing: 'never' }, empty: 'never' }, '<>': { singleLine: { spacing: 'never' }, empty: 'never' } } }`
+
 
 ## [49.11.0] - 2026-11-14
 
