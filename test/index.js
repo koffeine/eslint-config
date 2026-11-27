@@ -10,11 +10,11 @@ builtinRules.forEach((rule, ruleName) =>
 
 const config = await new ESLint({ overrideConfigFile: true, overrideConfig }).calculateConfigForFile('.js');
 
-Object.entries(config.plugins).forEach(([ pluginName, plugin ]) =>
-	Object.entries(plugin.rules).forEach(([ ruleName, rule ]) =>
+Object.entries(config?.plugins ?? {}).forEach(([ pluginName, plugin ]) =>
+	Object.entries(plugin.rules ?? {}).forEach(([ ruleName, rule ]) =>
 		(rule.meta?.deprecated ? allDeprecatedRules : allValidRules).push(`${pluginName}/${ruleName}`)));
 
-const currentRules = Object.keys(config.rules);
+const currentRules = Object.keys(config?.rules ?? {});
 
 
 const missingRules = allValidRules.filter((rule) => !currentRules.includes(rule));
